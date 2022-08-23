@@ -30,5 +30,5 @@ O Python usado foi o [3.10.6](https://www.python.org/downloads/) para Windows, j
 *
 ---
 
-### [Módulo 01]() - mundo01
+### [Módulo 01](https://github.com/MarckVinny/CursoPython/tree/Mod01-Mundo01/mundo01) - mundo01
 
