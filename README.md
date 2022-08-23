@@ -22,12 +22,26 @@ O Python usado foi o [3.10.6](https://www.python.org/downloads/) para Windows, j
 > * Snippets de Classe e exemplos de classe para POO (polimorfismo, encapsulamento, herança .i.g).
 
 * [AutoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring): Extensão usada para gerar rapidamente documentação (docstrings) para funções python.
+
 > * Gere rapidamente um snippet de docstring que pode ser guiado.
 > * Escolha entre vários tipos diferentes de formatos de docstring.
 > * Infere tipos de parâmetro por meio de dicas de tipo pep484, valores padrão e nomes de var.
 > * Suporte para argumentos, kwargs, decoradores, erros e tipos de parâmetros
 
-*
+* [Pyright](https://marketplace.visualstudio.com/items?itemName=ms-pyright.pyright): O Pyright através das Type Annotations, onde, dentro de ua Função ou Variáveis, especificar quais são os Tipos daqueles valores. Diferentes "ambientes de execução" podem ser associados a subdiretórios dentro de uma base de origem. Cada ambiente pode especificar diferentes caminhos de pesquisa de módulo, versões de linguagem python e destinos de plataforma.
+
+* [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter): Essa extensão permite que você execute seus testes Python Unittest , Pytest ou Testplan com a interface do usuário do Test Explorer .
+
+> * Mostra um Test Explorer na visualização Test na barra lateral do VS Code com todos os testes e suítes detectados e seu estado;
+> * Relatórios de erros convenientes durante a descoberta de testes;
+> * Depuração Unittest, Pytest e Testplan;
+> * Mostra o log de um teste com falha quando o teste é selecionado no explorer;
+> * Reexecutar testes ao salvar;
+> * Suporta espaços de trabalho multi-raiz;
+> * Suporta estruturas de teste Unittest, Pytest e Testplan e seus plugins;
+
+***Aqui se encontra um [video](https://www.youtube.com/watch?v=I8qaQoNITFI&t=424s) explicando melhor algumas extensões.***
+
 ---
 
 ### [Módulo 01](https://github.com/MarckVinny/CursoPython/tree/Mod01-Mundo01/mundo01) - mundo01

@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
         "kwargs",
-        "Pylance"
+        "Pylance",
+        "Pyright",
+        "Pytest",
+        "Testplan"
     ]
 }
