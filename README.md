@@ -40,7 +40,7 @@ O Python usado foi o [3.10.6](https://www.python.org/downloads/) para Windows, j
 > * Suporta espaços de trabalho multi-raiz;
 > * Suporta estruturas de teste Unittest, Pytest e Testplan e seus plugins;
 
-***Aqui se encontra um [video](https://www.youtube.com/watch?v=I8qaQoNITFI&t=424s) explicando melhor algumas extensões.***
+***Aqui se encontra um [video](https://www.youtube.com/playlist?list=PLPBRUoreTEqwc2wXm80knTChaeW9R10MM) explicando melhor algumas extensões.***
 
 ---
 
