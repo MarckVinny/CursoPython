@@ -24,5 +24,58 @@ Pois, o invés de fazer a soma de `n1 + n2`, ele irá concatenar *(juntar)*, poi
 
 ## ::: Tipos Primitivos :::
 
+Para resolver o problema, de que, quando o valor é digitado `input`, mesmo que seja um número, ele não é considerado como número, mas sim como sendo uma string.
+
+Para resolver esse problema, será utilizado um Tipo Primitivo que no caso é o `int`.
+
+```
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro: '))
+s = n1 + n2
+
+print('A soma vale: ', s)
+```
+
+Com isso, tudo que estiver entre os parênteses do `int()`, será convertido para um número inteiro.
+
+```
+int(input('Digite um número: '))
+```
+Com isso, o que está acontecendo é que: quando for digitado um valor, ele será jogado para dentro de `n1` como um número inteiro.
+
+E no Python, não existe somente o ***Tipo Primitivo*** `int()` ***inteiro*** os 4 Tipos mais básicos veremos logo a seguir:
+
+* ***Tipo int():*** Números inteiros, positivos, negativos e nulos.  
+Ex.: `0`, `4`, `-7`, `9875`, etc.
+
+* ***Tipo float():*** Números Reais ou números de Ponto Flutuante, positivos, negativos e nulos, mas, separados por um ponto `.`.  
+Ex.: `0.0`, `0.075`, `4.5`, `7.0`, `-15.223`, etc.
+
+* ***Tipo bool:*** Valores lógicos ou booleanos que são `True` verdadeiro e `False` falso.  
+***ATENÇÃO:*** quando for usar valores booleanos, a primeira letra ***precisa ser maiúscula***.
+
+* ***Tipo str:*** Valores caracteres ou string. Palavras escritas entre aspas simples `''`.  
+Ex: `'Olá!'`, `'7.5'` e/ou `''` string vazia.
+
+Outra forma de se usar os Tipos Primitivos no `print()`:
+
+```
+print('A soma vale', s)
+```
+
+Abaixo, terá a mesma funcionalidade, mas, com mais recursos.  
+A diferença é que dentro da string agora tem um `par de chaves`, e essa máscara será substituída por um Método da própria string.  
+Depois das aspas, será acrescentado o Método `.format()` e dentro dos parênteses do Método, será colocado o que será substituído pelo Método.  
+Que em nosso exemplo será a variável `s`.
+
+```
+print('A soma vale{}'.format(s))
+```
+
+Aparentemente pode parecer que o código ficou maior que o anterior, mas, adiante ficará claro que não.
+
+> ***DICA:** esta é a nova sintaxe usada no **Python3** e que será implementada em todo o decorrer do curso.  
+**DICA":** para saber qual o Tipo Primitivo de cada variável, se usa o comando: `print(type(nome_variável))`*
+
 
 
