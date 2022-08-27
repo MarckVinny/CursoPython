@@ -28,7 +28,7 @@ Para resolver o problema, de que, quando o valor é digitado `input`, mesmo que 
 
 Para resolver esse problema, será utilizado um Tipo Primitivo que no caso é o `int`.
 
-```
+```python
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro: '))
 s = n1 + n2
@@ -38,7 +38,7 @@ print('A soma vale: ', s)
 
 Com isso, tudo que estiver entre os parênteses do `int()`, será convertido para um número inteiro.
 
-```
+```python
 int(input('Digite um número: '))
 ```
 Com isso, o que está acontecendo é que: quando for digitado um valor, ele será jogado para dentro de `n1` como um número inteiro.
@@ -59,7 +59,7 @@ Ex: `'Olá!'`, `'7.5'` e/ou `''` string vazia.
 
 Outra forma de se usar os Tipos Primitivos no `print()`:
 
-```
+```python
 print('A soma vale', s)
 ```
 
@@ -68,14 +68,109 @@ A diferença é que dentro da string agora tem um `par de chaves`, e essa másca
 Depois das aspas, será acrescentado o Método `.format()` e dentro dos parênteses do Método, será colocado o que será substituído pelo Método.  
 Que em nosso exemplo será a variável `s`.
 
-```
+```python
 print('A soma vale{}'.format(s))
 ```
 
 Aparentemente pode parecer que o código ficou maior que o anterior, mas, adiante ficará claro que não.
 
 > ***DICA:** esta é a nova sintaxe usada no **Python3** e que será implementada em todo o decorrer do curso.  
-**DICA":** para saber qual o Tipo Primitivo de cada variável, se usa o comando: `print(type(nome_variável))`*
+**DICA":** para saber qual o Tipo Primitivo de cada variável, se usa o comando:*
 
+```python
+print(type(nome_variável))
+```
+
+## :::: Aula 06 ::::
+
+Vamos ler um número qualquer:
+
+```python
+n = input('Digite um valor: ')
+```
+
+Com este código acima, podemos fazer diversos testes, se colocarmos `float()` antes do input qualquer numero digitado, será convertido em Ponto Flutuante.
+
+Podemos testar com: `str()`, `int()`, `float()`, `bool()`, etc.
+
+Para testar os Tipos Primitivos, utilizamos o comando:
+
+```python
+print(type(nome_da_variável))
+```
+
+Através do comando `print()`, podemos fazer diversos testes usando o `type` ou usando o ponto `.` após a variável, a seguir alguns Métodos de string:
+
+* `str.index(sub[, start[, end]])`  
+Semelhante a `find()`, mas levanta `ValueError` quando a substring não é encontrada.
+
+* `str.isalnum()`  
+Retorna `True` se todos os caracteres na string são ***alfanuméricos*** e existe pelo menos um caractere, ou `False` caso contrário. Um caractere `c` é alfanumérico se um dos seguintes retorna `True`: `c.isalpha()`, `c.isdecimal()`, `c.isdigit()`, ou `c.isnumeric()`.
+
+* `str.isalpha()`  
+Retorna `True` se todos os caracteres na string são ***alfabéticos*** e existe pelo menos um caractere, `False` caso contrário.  
+***Caracteres alfabéticos*** são aqueles caracteres definidos na base de dados de caracteres Unicode como ***“Letra”***, isto é, aqueles cuja propriedade na categoria geral é um destes: `“Lm”`, `“Lt”`, `“Lu”`, `“Ll”` ou `“Lo”`.  
+Perceba que isso é diferente da propriedade “Alfabética” definida no Unicode padrão.
+
+* str.isascii()
+Retorna True se a string é vazia ou se todos os caracteres na string são ASCII, False caso contrário. Caracteres ASCII têm pontos de código no intervalo U+0000-U+007F.
+
+Novo na versão 3.7.
+
+* str.isdecimal()
+Retorna True se todos os caracteres na string são caracteres decimais e existe pelo menos um caractere, False caso contrário. Caracteres decimais são aqueles que podem ser usados para formar números na base 10, exemplo U+0660, ou dígito zero para arábico-índico. Formalmente, um caractere decimal é um caractere em Unicode cuja categoria geral é “Nd”.
+
+* str.isdigit()
+Retorna True se todos os caracteres na string são dígitos e existe pelo menos um caractere, False caso contrário. Dígitos incluem caracteres decimais e dígitos que precisam de tratamento especial, tal como a compatibilidade com dígitos sobre-escritos. Isso inclui dígitos que não podem ser usados para formar números na base 10, como por exemplo os números de Kharosthi. Formalmente, um dígito é um caractere que tem a propriedade com valor Numeric_Type=Digit ou Numeric_Type=Decimal.
+
+* str.isidentifier()
+Retorna True se a string é um identificador válido conforme a definição da linguagem, seção Identificadores e palavras-chave.
+
+Chame keyword.iskeyword() para testar se a string s é uma palavra reservada, tal como def e class.
+
+Exemplo:
+
+```
+   from keyword import iskeyword
+
+   'hello'.isidentifier(), iskeyword('hello')
+(True, False)
+
+   'def'.isidentifier(), iskeyword('def')
+(True, True)
+```
+
+* str.islower() Retorna True se todos os caracteres em caixa (que possuem maiúsculo e minúsculo) 4 na string são minúsculos e existe pelo menos um caractere em caixa, False caso contrário.
+
+* str.isnumeric()
+Retorna True se todos os caracteres na string são caracteres numéricos, e existe pelo menos um caractere, False caso contrário. Caracteres numéricos incluem dígitos, e todos os caracteres que têm a propriedade com valor numérico Unicode, isto é: U+2155, um quinto de fração vulgar. Formalmente, caracteres numéricos são aqueles que possuem propriedades com valor Numeric_Type=Digit, Numeric_Type=Decimal ou Numeric_Type=Numeric.
+
+* str.isprintable()
+Retorna True se todos os caracteres na string podem ser impressos ou se a string é vazia, False caso contrário. Caracteres que não podem ser impressos são aqueles que estão definidos no banco de dados de caracteres Unicode como “Outros” ou “Separadores”, exceto o caractere ASCII que representa o espaço (0x20), o qual é impresso. (Perceba que caracteres que podem ser impressos, neste contexto, são aqueles que não devem ser escapados quando repr() é invocada sobre uma string. Ela não tem sentido no tratamento de strings escritas usando sys.stdout ou sys.stderr.)
+
+* str.isspace()
+Retorna True se existem apenas caracteres de espaço em branco na string e existe pelo menos caractere, False caso contrário.
+
+Um caractere é espaço em branco se no banco de dados de caracteres Unicode (veja unicodedata), ou pertence a categoria geral Zs (“Separador, espaço”), ou sua classe bidirecional é WS, B ou S.
+
+* str.istitle()
+Retorna True se a string é titlecased e existe pelo menos um caractere, por exemplo caracteres maiúsculos somente podem proceder caracteres que não diferenciam maiúsculas/minúsculas, e caracteres minúsculos somente podem proceder caracteres que permitem ambos. Retorna False caso contrário.
+
+* str.isupper()
+Retorna True se todos os caracteres que permitem maiúsculas ou minúsculas 4 na string estão com letras maiúsculas, e existe pelo menos um caractere maiúsculo, False caso contrário.
+
+```
+'BANANA'.isupper()
+True
+
+'banana'.isupper()
+False
+
+'baNana'.isupper()
+False
+
+' '.isupper()
+False
+```
 
 
