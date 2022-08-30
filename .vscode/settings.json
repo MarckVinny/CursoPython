@@ -1,7 +1,21 @@
 {
     "cSpell.words": [
         "booleanos",
+        "isalnum",
+        "isalnun",
+        "isalpha",
+        "isascii",
+        "isdecimal",
+        "isdigit",
+        "isidentifier",
+        "iskeyword",
+        "isspace",
+        "istitle",
+        "Kharosthi",
         "kwargs",
-        "Pylance"
+        "Pylance",
+        "repr",
+        "titlecased",
+        "unicodedata"
     ]
 }
