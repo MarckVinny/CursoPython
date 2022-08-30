@@ -1,6 +1,9 @@
-print ('====== Desafio 02 =====')
-print ('Qual sua data de nascimento?')
-dia = input ('Qual é o dia?  ')
-mes = input ('Qual é o mês?  ')
-ano =input ('Qual é o ano?  ')
-print ('Você nasceu no dia', dia, 'de', mes, 'de', ano,', correto?')
+print ('====== Desafio 01 =====')
+nome = input ('Qual é o seu nome?')
+print ('Olá {}, prazer em te conhecer!'.format(nome))
+"""Saída Formatada
+    {} usando as chaves dentro da string
+    .format(variável) fora da string
+    
+    Esta função está presente a partir do Python 3
+"""
