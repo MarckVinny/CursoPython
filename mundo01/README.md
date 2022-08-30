@@ -212,3 +212,35 @@ Por estar lendo o que foi digitado através do `input`, o Tipo será sempre uma 
 
 Crie um programa que leia algo digitado no teclado e mostre na Tela o seu Tipo Primitivo e todas as informações possíveis sobre ela.
 
+No trecho do código a seguir `n.isupper()`:  
+* `n` é o Objeto.  
+* Todo Objeto possui características e realiza funcionalidades, então, temos `atributos` e `métodos`.  
+* `.isupper()` é o Método.
+* Tudo que possui parênteses depois do Objeto é um Método.  
+* Cada Objeto possui diversos Métodos.
+
+### Resposta Desafio 04
+
+```python
+print ('====== Desafio 04 =====')
+
+n = input('Digite algo: ')
+
+print ('\nO Tipo Primitivo desde valor é: {} \
+    \nSó tem espaços? {} \
+        \nÉ um número? {} \
+            \nE alfabético? {} \
+                \nÉ alfanumérico? {} \
+                    \nEstá em maiúsculas? {} \
+                        \nEstá em minúsculas? {} \
+                            \nEstá capitalizada? {}'.format(type(n), 
+                                                        n.isspace(), 
+                                                        n.isnumeric(), 
+                                                        n.isalpha(), 
+                                                        n.isalnum(), 
+                                                        n.isupper(), 
+                                                        n.islower(), 
+                                                        n.istitle()
+                                                        ))
+```
+
