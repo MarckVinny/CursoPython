@@ -244,3 +244,52 @@ print ('\nO Tipo Primitivo desde valor é: {} \
                                                         ))
 ```
 
+## :::: Aula 07 ::::
+
+## Operadores Aritméticos
+
+* `+` Adição;
+* `-` Subtração;
+* `*` Multiplicação;
+* `/` Divisão;
+* `**` Potência;
+* `//` Divisão Inteira;
+* `%` Resto da Divisão *(para o Python e a maioria das linguagens de programação, o sinal de porcento, não calcula a porcentagem, ele calcula o Módulo que é o **Resto a Divisão**)*.
+
+Todo ***Operador Aritmético*** precisa de ***Operandos***, neste caso, iremos utilizar Operandos de valor `5` e `2`.  
+Operadores Aritméticos, funcionam como ***Operadores Binários*** *(precisam de 2 Operandos)*.
+
+> ***Dica:*** ***Operandos*** podem ser: números, strings ou variáveis.  
+> ***Dica<sup>2</sup>:*** No caso de ***Operadores Aritméticos*** só podem ser números ou variáveis que contenham números.  
+>***Dica<sup>3</sup>:*** Quando se quer testar se uma coisa ***é igual a outra***, utilizam-se dois sinais de igual `==`.
+
+### Exemplos:
+
+* 5 `+` 2 `==` 7;
+* 5 `-` 2 `==` 3;
+* 5 `*` 2 `==` 10;
+* 5 `/` 2 `==` 2.5 *(ponto flutuante)*;
+* 5 `**` 2 `==` 25 *(raiz quadrada)*;
+* 5 `//` 2 `==` 2;
+* 5 `%` 2 `==` 1.
+
+#### Divisão Inteira com Resto da Divisão:
+![Operadores Aritméticos](./imagens/aula_07_01.jpg)
+
+## Ordem de Precedência - Operadores Aritméticos
+
+Quem será calculado primeiro na ordem que aparecerem?
+
+* 1º - Parênteses `()`;
+* 2º - Potencias `**`;
+* 3º - Multiplicação `*`, Divisão `/`, Divisão Inteira `//` e o Resto da Divisão `%`;
+> Quando dois operadores possuem a mesma precedência, o que aparece primeiro *(da esquerda para a direita)* na expressão é calculado primeiro.
+* 4º - Adição `+` e Subtração `-` *(binárias)*.`
+
+### Exemplos:
+
+* 5 `+` 3 `*` 2 `==` 11 => *`(3 * 2 = 6 + 5 = 11)`*;
+* 3 `*` 5 `+` 4 `**` 2 `==` 31 => *`(4 ** 2 = 16 => 3 * 5 = 15 => 15 + 16 = 31)`*;
+* 3 `*` `(`5 `+` 4`)` `**` 2 `==` 243 => *`(5 + 4 = 9 => 9 ** 2 = 81 => 3 * 81 = 243)`*;
+
+
