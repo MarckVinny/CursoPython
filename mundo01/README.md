@@ -309,6 +309,8 @@ Terminal
 ====================
 ```
 
+## ::: Tipos de Alinhamentos :::
+
 Também podemos usar o ***.format()*** para poder formatar o ***print()*** de uma forma mais inteligente:  
 Usando `:20` dentro máscara `{}` do `.format()`, podemos especificar quantos caracteres serão mostrados dentro da máscara, com isso podemos fazer outros tipos de alinhamentos como veremos a seguir:  
 
@@ -371,5 +373,49 @@ Prazer em te conhecer =======Marcos=======!
 
 > ## Agora vamos voltar a aula dos Operadores Aritméticos
 
+## ::: Calculando e Replicando informações :::
+
+No exercício a seguir, iremos ver como podemos realizar diversos cálculos utilizando somente dois números digitados pelo usuário.
+
+* Primeiro iremos definir a varável `n1` que conterá o primeiro número que será digitado `input('Digite um valor: )` e será convertido de String para Inteiro `int(input('Digite um valor: ))`.  
+
+```py
+print('\n\n::: Calculando e Replicando seus Valores :::\n')
+
+n1 = int(input('Digite um valor: '))
+n2 = int(input('Digite outro valor: '))
+s = n1 + n2
+m = n1 * n2
+d = n1 / n2
+di = n1 // n2
+r = n1 % n2
+e = n1 ** n2
+
+print('\n\
+A soma é: {}\n\
+O produto é: {}\n\
+A divisão é: {:.2f}\n\
+A divisão inteira é: {}\n\
+O resto da divisão é: {}\n\
+A potência é: {}'.format(s, m, d, di, r, e))
+```
+> ***Dica<sup>1</sup>:*** para formatar a saída da divisão com duas casas decimais depois do ponto `.` usa-se: `.2f` dentro da máscara `{}` do `.format()`.  
+***Dica<sup>2</sup>:*** quando houver mais de um `print()` e quiser que todas as saídas fiquem na mesma linha, usa-se: `end=' '` ao final de cada `print()`.
+
+```sh
+Saída no Terminal
+
+::: Calculando e Replicando seus Valores :::
+
+Digite um valor: 3
+Digite outro valor: 30
+
+A soma é: 33
+O produto é: 90
+A divisão é: 0.10
+A divisão inteira é: 0
+O resto da divisão é: 3
+O exponencial é: 205891132094649
+```
 
 
