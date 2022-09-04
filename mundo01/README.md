@@ -555,6 +555,41 @@ média: 6.65
 
 Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
 
+### Resposta
+
+Minha solução
+
+```py
+print('\n\
+    \n::::::::::::::::::::::::::::::::\
+    \n::: Conversor de Metros para :::\
+    \n::: Centímetros e Milímetros :::\
+    \n::::::::::::::::::::::::::::::::')
+
+n1 = float(input('\nDigite uma medida em Metros: '))
+cm = n1 * 100
+mm = n1 * 1000
+
+print('\
+    \n{} metros equivale à: {} centímetros\
+        \n{} metros é o mesmo que: {} milímetros'.format(n1, cm, n1, mm))
+```
+
+```sh
+Saída no Terminal
+
+
+::::::::::::::::::::::::::::::::
+::: Conversor de Metros para :::
+::: Centímetros e Milímetros :::
+::::::::::::::::::::::::::::::::
+
+Digite uma medida em Metros: 0.0015
+    
+0.0015 metros equivale à: 0.15 centímetros
+0.0015 metros é o mesmo que: 1.5 milímetros
+```
+
 ## ::: Desafio 009 :::
 
 Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada.
