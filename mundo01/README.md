@@ -208,7 +208,7 @@ False
 
 Por estar lendo o que foi digitado através do `input`, o Tipo será sempre uma String, mas, se for convertê-lo para outra Tipo, é outra história.
 
-### ::: Desafio 004 :::
+## ::: Desafio 004 :::
 
 Crie um programa que leia algo digitado no teclado e mostre na Tela o seu Tipo Primitivo e todas as informações possíveis sobre ela.
 
@@ -291,6 +291,8 @@ Quem será calculado primeiro na ordem que aparecerem?
 * 5 `+` 3 `*` 2 `==` 11 => *`(3 * 2 = 6 + 5 = 11)`*;
 * 3 `*` 5 `+` 4 `**` 2 `==` 31 => *`(4 ** 2 = 16 => 3 * 5 = 15 => 15 + 16 = 31)`*;
 * 3 `*` `(`5 `+` 4`)` `**` 2 `==` 243 => *`(5 + 4 = 9 => 9 ** 2 = 81 => 3 * 81 = 243)`*;
+> Outra forma de se obter a raiz de um número, é através da ***Função Interna*** `pow()` pow(4, 2) raiz quadrada de 4, pow(4, 3) raiz cúbica de 4.  
+Onde, o `primeiro número` é a base e o `segundo numero` e o expoente.
 
 ### Usado Operadores Aritméticos com string
 
@@ -417,5 +419,47 @@ A divisão inteira é: 0
 O resto da divisão é: 3
 O exponencial é: 205891132094649
 ```
+
+## ::: Desafio 005 :::
+
+Crie um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.
+
+-1 digitado +1
+
+## ::: Desafio 006 :::
+
+Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada,
+
+## ::: Desafio 007 :::
+
+Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua média.
+
+> ***Obs.:*** se ñ estiver dando o resultado correto, prestar atenção na ordem de precedência.
+
+## ::: Desafio 008 :::
+
+Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
+
+## ::: Desafio 009 :::
+
+Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada.
+
+## ::: Desafio 010 :::
+
+Crie um programa que leia quanto dinheiro o usuário tem na carteira e mostre quantos dólares ela pode comprar.
+
+> Obs.: considere o dólar à R$ 3,27
+
+## ::: Desafio 011 :::
+
+Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que a cada litro de tinta pinta uma área de 2m<sup>2</sup>.
+
+## ::: Desafio 012 :::
+
+Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
+
+## ::: Desafio 013 :::
+
+Faça um algorítimo que leia o salário de um Funcionário e mostre seu novo salário com 15% de aumento.
 
 
