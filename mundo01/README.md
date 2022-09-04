@@ -291,8 +291,12 @@ Quem será calculado primeiro na ordem que aparecerem?
 * 5 `+` 3 `*` 2 `==` 11 => *`(3 * 2 = 6 + 5 = 11)`*;
 * 3 `*` 5 `+` 4 `**` 2 `==` 31 => *`(4 ** 2 = 16 => 3 * 5 = 15 => 15 + 16 = 31)`*;
 * 3 `*` `(`5 `+` 4`)` `**` 2 `==` 243 => *`(5 + 4 = 9 => 9 ** 2 = 81 => 3 * 81 = 243)`*;
-> Outra forma de se obter a raiz de um número, é através da ***Função Interna*** `pow()` pow(4, 2) raiz quadrada de 4, pow(4, 3) raiz cúbica de 4.  
-Onde, o `primeiro número` é a base e o `segundo numero` e o expoente.
+
+> Outra forma de calcular a raiz quadrada de um número em Python é com o emprego da função matemática `pow()`.  
+Basta empregarmos esta função para elevar o número à potência de `1/2 (0.5)` e obteremos sua raiz.  
+O método `pow()` também pertence ao módulo math.  
+Ex<sup>1</sup>.: `9 ** (1/2) == 3` ***raiz quadrada***, é o mesmo que `pow(9, 1/2)`.  
+Ex<sup>2</sup>: `27 ** (1/3) == 3` ***raiz cúbica***, é o mesmo que `pow(27, 1/3)`.
 
 ### Usado Operadores Aritméticos com string
 
@@ -460,7 +464,47 @@ O sucessor é: -4
 
 ## ::: Desafio 006 :::
 
-Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada,
+Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada.
+
+### Resposta:
+
+Minha solução.
+
+```py
+print('\n\
+    \n:::::::::::::::::::::::::::::::::::::::\
+    \n::: Veja o dobro, o triplo e a raiz :::\
+    \n:::   quadrada do número digitado   :::\
+    \n:::::::::::::::::::::::::::::::::::::::')
+
+n1 = int(input('\nDigite um valor: '))
+nd = n1 * 2
+nt = n1 * 3
+raiz = n1 ** (1/2)   # ou nr = pow(n1, 1/2)
+
+print('\
+    \nVocê digitou: {}\
+        \nSeu dobro é: {}\
+            \nSeu triplo é: {}\
+                \nE sua raiz quadrada é: {}'.format(n1, nd, nt, raiz))
+```
+
+```sh
+Saída no Terminal
+
+
+:::::::::::::::::::::::::::::::::::::::
+::: Veja o dobro, o triplo e a raiz :::
+:::   quadrada do número digitado   :::
+:::::::::::::::::::::::::::::::::::::::
+
+Digite um valor: 9
+    
+Você digitou: 9
+Seu dobro é: 18
+Seu triplo é: 27
+E sua raiz quadrada é: 3.0
+```
 
 ## ::: Desafio 007 :::
 
