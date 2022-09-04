@@ -427,7 +427,8 @@ O exponencial é: 205891132094649
 
 Crie um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.  
 
-### Resposta
+### Resposta - Antecessor e Sucessor de um número
+
 Minha solução:
 
 ```py
@@ -466,7 +467,7 @@ O sucessor é: -4
 
 Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada.
 
-### Resposta:
+### Resposta - Dobro, Triplo e Raiz quadrada
 
 Minha solução.
 
@@ -512,7 +513,7 @@ Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua 
 
 > ***Obs.:*** se ñ estiver dando o resultado correto, prestar atenção na ordem de precedência.
 
-### Resposta
+### Resposta - Média do Aluno
 
 Minha solução
 
@@ -555,7 +556,7 @@ média: 6.65
 
 Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
 
-### Resposta
+### Resposta - Conversor de Metros para Centímetros e Milímetros
 
 Minha solução
 
@@ -594,7 +595,7 @@ Digite uma medida em Metros: 0.0015
 
 Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada.
 
-### Resposta
+### Resposta - Gerador de Tabuada
 
 Minha solução
 
@@ -663,6 +664,39 @@ Digite um número e Gere sua Tabuada de Multiplicação: 9
 Crie um programa que leia quanto dinheiro o usuário tem na carteira e mostre quantos dólares ela pode comprar.
 
 > Obs.: considere o dólar à R$ 3,27
+
+### Resposta - Conversor Dólar/Real
+
+Minha solução
+
+```py
+print('\n\
+    \n::::::::::::::::::::::::::::::::\
+    \n::::: Conversor Dólar/Real :::::\
+    \n::::::::::::::::::::::::::::::::')
+
+n1 = float(input('\nQuantos Reais você possui? '))
+dolar = float(3.27)
+conv = n1 / dolar
+
+print('\
+    \nVocê possui R$ {:.2f}\
+        \nE pode comprar $ {:.2f} dólares.'.format(n1, conv))
+```
+
+```sh
+Saída no Terminal
+
+
+::::::::::::::::::::::::::::::::
+::::: Conversor Dólar/Real :::::
+::::::::::::::::::::::::::::::::
+
+Quantos Reais você possui? 99
+    
+Você possui R$ 99.00
+E pode comprar $ 30.28 dólares.
+```
 
 ## ::: Desafio 011 :::
 
