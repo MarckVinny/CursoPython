@@ -702,6 +702,54 @@ E pode comprar $ 30.28 dólares.
 
 Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que a cada litro de tinta pinta uma área de 2m<sup>2</sup>.
 
+### Resposta - Cálculo de área e rendimento e tinta
+
+Minha solução
+
+```py
+print('\n\
+    \n:::::::::::::::::::::::::::::\
+    \n::::: Cálculo de Área e :::::\
+    \n:::: Rendimento de Tinta ::::\
+    \n:::::::::::::::::::::::::::::')
+
+larg = float(input('\nQual a largura da Parede em metros? '))
+"""Define a largura da Parede em metros
+    """
+altura = float(input('Qual é a Altura da Parede em metros? '))
+"""Define a Altura da Parede em metros
+    """
+area = larg * altura
+"""Calcula a área da parece
+    """
+rend = area / 2
+
+print('\
+    \nLargura: {:.2f} m\
+        \nAltura: {:.2f} m\
+            \nÁrea: {:.2f} m\u00b1\
+                \nVocê precisará de {:.2f} litros de tinta'
+      .format(larg, altura, area, rend))
+```
+
+```sh
+Saída no Terminal
+
+
+:::::::::::::::::::::::::::::
+::::: Cálculo de Área e :::::
+:::: Rendimento de Tinta ::::
+:::::::::::::::::::::::::::::
+
+Qual a largura da Parede em metros? 3
+Qual é a Altura da Parede em metros? 2.4
+    
+Largura: 3.00 m
+Altura: 2.40 m
+Área: 7.20 m²
+Você precisará de 3.60 litros de tinta.
+```
+
 ## ::: Desafio 012 :::
 
 Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
