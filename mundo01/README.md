@@ -292,4 +292,84 @@ Quem será calculado primeiro na ordem que aparecerem?
 * 3 `*` 5 `+` 4 `**` 2 `==` 31 => *`(4 ** 2 = 16 => 3 * 5 = 15 => 15 + 16 = 31)`*;
 * 3 `*` `(`5 `+` 4`)` `**` 2 `==` 243 => *`(5 + 4 = 9 => 9 ** 2 = 81 => 3 * 81 = 243)`*;
 
+### Usado Operadores Aritméticos com string
+
+```sh
+Terminal
+>>> 'Olá' + 'Oi'
+'OláOi'
+
+>>> 'Oi' * 5
+'OiOiOiOiOi'
+
+>>> '=' * 20
+'===================='
+
+>>> print('=' * 20)
+====================
+```
+
+Também podemos usar o ***.format()*** para poder formatar o ***print()*** de uma forma mais inteligente:  
+Usando `:20` dentro máscara `{}` do `.format()`, podemos especificar quantos caracteres serão mostrados dentro da máscara, com isso podemos fazer outros tipos de alinhamentos como veremos a seguir:  
+
+```python
+nome = input('Qual é seu nome? ')
+print('Prazer em te conhecer {:20}!'.format(nome))
+```
+
+> Note que depois no nome existe uma quantidade de caracteres até chegar no ponto de exclamação.  
+Por padrão, o alinhamento é à esquerda utilizando o sinal de menor `<` `{:<20}`
+
+```sh
+::: Saída no Terminal :::
+
+>>> Qual é seu nome? Marcos
+Prazer em te conhecer Marcos              !
+```
+
+Usando o mesmo exemplo iremos alinhar a direita, utilizando o sinal de maior `>` `{:>20}`.
+
+```python
+nome = input('Qual é seu nome? ')
+print('Prazer em te conhecer {:>20}!'.format(nome))
+```
+
+```sh
+::: Saída no Terminal :::
+
+>>> Qual é seu nome? Marcos
+Prazer em te conhecer               Marcos!
+```
+
+Também podemos alinhar centralizado, usando o acento circunflexo `^` `{:^20}`.
+
+```python
+nome = input('Qual é seu nome? ')
+print('Prazer em te conhecer {:^20}!'.format(nome))
+```
+
+```sh
+::: Saída no Terminal :::
+
+>>> Qual é seu nome? Marcos
+Prazer em te conhecer         Marcos       !
+```
+
+Outra opção interessante é usar algum caractere para preencher os espaços vazios na formatação, como por exemplo, colocar `=` envolta do nome digitado.
+
+```python
+nome = input('Qual é seu nome? ')
+print('Prazer em te conhecer {:=^20}!'.format(nome))
+```
+
+```sh
+::: Saída no Terminal :::
+
+>>> Qual é seu nome? Marcos
+Prazer em te conhecer =======Marcos=======!
+```
+
+> ## Agora vamos voltar a aula dos Operadores Aritméticos
+
+
 
