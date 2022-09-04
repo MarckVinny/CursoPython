@@ -393,7 +393,7 @@ di = n1 // n2
 r = n1 % n2
 e = n1 ** n2
 
-print('\nA soma é: {}\
+print(' \nA soma é: {}\
         \nO produto é: {}\
             \nA divisão é: {:0.2f}\
                 \nA divisão inteira é: {}\
@@ -421,9 +421,42 @@ O exponencial é: 205891132094649
 
 ## ::: Desafio 005 :::
 
-Crie um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.
+Crie um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.  
 
--1 digitado +1
+### Resposta
+Minha solução:
+
+```py
+
+print('\n\
+    \n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::\
+    \n::: Veja o antecessor e o sucessor do número digitado :::\
+    \n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+
+n1 = int(input('\nDigite um valor: '))
+na = n1 - 1
+ns = n1 + 1
+
+print('\
+    \nO antecessor é: {}\
+        \nVocê digitou: {}\
+            \nO sucessor é: {}'.format(na, n1, ns))
+
+```
+
+```sh
+Saída no Terminal
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::: Veja o antecessor e o sucessor do número digitado :::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Digite um valor: -5
+    
+O antecessor é: -6
+Você digitou: -5
+O sucessor é: -4
+```
 
 ## ::: Desafio 006 :::
 
