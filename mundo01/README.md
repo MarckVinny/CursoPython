@@ -512,6 +512,45 @@ Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua 
 
 > ***Obs.:*** se ñ estiver dando o resultado correto, prestar atenção na ordem de precedência.
 
+### Resposta
+
+Minha solução
+
+```py
+print('\n\
+    \n:::::::::::::::::::::::::::::\
+    \n::: Veja a Média do Aluno :::\
+    \n::: digitando suas Notas  :::\
+    \n:::::::::::::::::::::::::::::')
+
+n1 = float(input('\nDigite uma Nota: '))
+n2 = float(input('Digite a outra Nota: '))
+s = n1 + n2
+media = s / 2
+
+print('\
+    \nNota 1: {}\
+        \nNota 2: {}\
+            \nmédia: {}'.format(n1, n2, media))
+```
+
+```sh
+Saída no Terminal
+
+
+:::::::::::::::::::::::::::::
+::: Veja a Média do Aluno :::
+::: digitando suas Notas  :::
+:::::::::::::::::::::::::::::
+
+Digite uma Nota: 9.5
+Digite a outra Nota: 3.8
+
+Nota 1: 9.5
+Nota 2: 3.8
+média: 6.65
+```
+
 ## ::: Desafio 008 :::
 
 Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
