@@ -393,13 +393,12 @@ di = n1 // n2
 r = n1 % n2
 e = n1 ** n2
 
-print('\n\
-A soma é: {}\n\
-O produto é: {}\n\
-A divisão é: {:.2f}\n\
-A divisão inteira é: {}\n\
-O resto da divisão é: {}\n\
-A potência é: {}'.format(s, m, d, di, r, e))
+print('\nA soma é: {}\
+        \nO produto é: {}\
+            \nA divisão é: {:0.2f}\
+                \nA divisão inteira é: {}\
+                    \nO resto da divisão é: {}\
+                        \nA potência é: {}'.format(s, m, d, di, r, e))
 ```
 > ***Dica<sup>1</sup>:*** para formatar a saída da divisão com duas casas decimais depois do ponto `.` usa-se: `.2f` dentro da máscara `{}` do `.format()`.  
 ***Dica<sup>2</sup>:*** quando houver mais de um `print()` e quiser que todas as saídas fiquem na mesma linha, usa-se: `end=' '` ao final de cada `print()`.
