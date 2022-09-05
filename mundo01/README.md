@@ -841,6 +841,18 @@ Altura: 2.40 m
 Você precisará de 3.60 litros de tinta.
 ```
 
+### Resposta Prof. Guanabara
+
+```py
+larg = float(input('Largura da parede: '))
+alt = float(input('Altura da parede: '))
+área = larg * alt
+print('Sua parede tem a dimensão de {}x{}m e sua área é de {}m\u00b2.'.format(
+    larg, alt, área))
+tinta = área / 2
+print('Para pintar essa parede, você precisará de {}l de tinta.'.format(tinta))
+```
+
 ## ::: Desafio 012 :::
 
 Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
