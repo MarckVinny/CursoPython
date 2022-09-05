@@ -754,6 +754,44 @@ Você precisará de 3.60 litros de tinta.
 
 Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
 
+### Resposta - Produto com Desconto
+
+Minha solução
+
+```py
+print('\n\
+    \n:::::::::::::::::::::::::::::::\
+    \n::::: Produto com Desconto ::::\
+    \n:::::::::::::::::::::::::::::::')
+
+vprod = float(input('\nQual o valor do produto? '))
+"""Define o valor do produto
+    """
+desc = vprod - (vprod * 5 / 100)
+"""Define o desconto do produto
+    """
+print('\
+    \nO valor do produto é R$ {:.2f}\
+        \nValor com Desconto R$ {:.2f}\
+            \n\nBoas compras e Volte Sempre!'.format(vprod, desc))
+```
+
+```sh
+Saída no Terminal
+
+
+:::::::::::::::::::::::::::::::
+::::: Produto com Desconto ::::
+:::::::::::::::::::::::::::::::
+
+Qual o valor do produto? 599
+    
+O valor do produto é R$ 599.00
+Valor com Desconto R$ 569.05
+
+Boas compras e Volte Sempre!
+```
+
 ## ::: Desafio 013 :::
 
 Faça um algorítimo que leia o salário de um Funcionário e mostre seu novo salário com 15% de aumento.
