@@ -463,6 +463,28 @@ Você digitou: -5
 O sucessor é: -4
 ```
 
+### Resposta do Prof. Guanabara
+
+Solução do professor utilizando somente 1 variável economizando assim mais memória.  
+
+> ***Dica:*** pode ser feito assim pois as outras variáveis não seriam usadas posteriormente.
+
+```py
+
+print('\n\
+    \n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::\
+    \n::: Veja o antecessor e o sucessor do número digitado :::\
+    \n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
+
+n = int(input('\nDigite um valor: '))
+
+print('\
+    \nO antecessor é: {}\
+        \nVocê digitou: {}\
+            \nO sucessor é: {}'.format((n1 - 1), n, (n + 1)))
+
+```
+
 ## ::: Desafio 006 :::
 
 Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada.
