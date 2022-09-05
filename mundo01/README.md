@@ -708,6 +708,39 @@ Digite um número e Gere sua Tabuada de Multiplicação: 9
 :    9 x 10 = 90   :
 ::::::::::::::::::::
 ```
+
+### Resposta do Prof. Guanabara
+
+```py
+n1 = int(input('\nDigite um número e Gere sua Tabuada de Multiplicação: '))
+
+print('\
+    \n::::::::::::::::::::\
+    \n:: Tabuada de{: ^5}::\
+    \n::::::::::::::::::::\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n:{: >5} x {:2} = {: <4} :\
+    \n::::::::::::::::::::\
+        '.format(n1, n1, 1, (n1 * 1),
+                 n1, 2, (n1 * 2),
+                 n1, 3, (n1 * 3),
+                 n1, 4, (n1 * 4),
+                 n1, 5, (n1 * 5),
+                 n1, 6, (n1 * 6),
+                 n1, 7, (n1 * 7),
+                 n1, 8, (n1 * 8),
+                 n1, 9, (n1 * 9),
+                 n1, 10, (n1 * 10)))
+```
+
 ## ::: Desafio 010 :::
 
 Crie um programa que leia quanto dinheiro o usuário tem na carteira e mostre quantos dólares ela pode comprar.
