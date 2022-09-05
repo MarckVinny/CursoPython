@@ -528,6 +528,19 @@ Seu dobro é: 18
 Seu triplo é: 27
 E sua raiz quadrada é: 3.0
 ```
+### Resposta do Prof. Guanabara
+
+Solução usando menos variáveis
+
+```py
+n = int(input('\nDigite um valor: '))
+
+print('\
+    \nVocê digitou: {}\
+        \nSeu dobro é: {}\
+            \nSeu triplo é: {}\
+                \nE sua raiz quadrada é: {.2f}'.format(n, (n * 2), (n * 3), (n ** 1/2)))
+```
 
 ## ::: Desafio 007 :::
 
