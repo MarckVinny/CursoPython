@@ -587,6 +587,20 @@ Nota 2: 3.8
 média: 6.65
 ```
 
+### Resposta do Prof. Guanabara
+
+> ***Dica<sup>1</sup>:*** No Python uma variável pode conter acento.  
+***Dica<sup>2</sup>:*** Formatando a máscara para mostrar somente 1 casa decimal, o Python faz o arredondamento respeitando as regras algébricas.
+
+```py
+n1 = float(input('\nPrimeira nota do aluno: '))
+n2 = float(input('Segunda nota do aluno: '))
+media = (n1 + n2) / 2
+
+print('\
+    \nA média entre {:.1f} e {:1f} é igual a {:.1f}'.format(n1, n2, media))
+```
+
 ## ::: Desafio 008 :::
 
 Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
