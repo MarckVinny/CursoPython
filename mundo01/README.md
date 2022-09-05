@@ -780,6 +780,15 @@ Você possui R$ 99.00
 E pode comprar $ 30.28 dólares.
 ```
 
+### Resposta Prof. Guanabara
+
+```py
+real = float(input('Quanto dinheiro você tem na carteira? R$ '))
+dolar = real / 3.27
+
+print('Com R$ {:.2f} você pode comprar US$ {:.2f}'.format(real, dolar))
+```
+
 ## ::: Desafio 011 :::
 
 Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que a cada litro de tinta pinta uma área de 2m<sup>2</sup>.
