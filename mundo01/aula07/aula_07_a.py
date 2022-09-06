@@ -1,5 +1,5 @@
 
-### ? DESCOMENTE O BLOCO DE CÓDIGO COM CTRL+Ç E TESTE ###
+# ? DESCOMENTE O BLOCO DE CÓDIGO COM CTRL+Ç E TESTE ###
 
 # # todo: Alinha o 'nome' à esquerda (de 20 caracteres)
 # # !     o alinhamento padrão é à esquerda {:20}.
