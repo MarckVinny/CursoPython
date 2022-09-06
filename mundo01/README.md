@@ -934,3 +934,37 @@ O valor do salário é R$ 1212.00
 Novo valor com Aumento R$ 1393.80
 ```
 
+## ::: Desafio 014 :::
+
+Escreva um programa que converta a temperatura digitada em ºC e a converta para ºF.  
+
+> ***Dica<sup>1</sup>:*** A fórmula para a conversão de ***ºC*** para ***ºF*** é: ***((9 * ºC) / 5) + 32***.  
+***Dica<sup>2</sup>:*** Para limpar o Terminal antes de rodar o código, primeiro `import os` e depois use o comando `os.system('clear')` no ***Bash*** ou `os.system('cls')` no ***CMD*** onde desejar que o terminal seja limpo.  
+***Dica<sup>3</sup>:*** Uma outra forma de formatar uma String é utilizando um `f` antes das aspas e usar a formatação dentro das mascaras `{}`.  
+
+***Exemplo:*** 
+```py 
+print(f'Teste de formatação{:.2f}')
+```
+
+### Conversor de Temperatura de ºC para ºF
+
+```py
+import os
+
+os.system('clear')  # Limpa o terminal antes de rodar o código
+
+c = float(input('\n\nIndorme a temperatura em ºC: '))
+f = ((9 * c) / 5) + 32
+
+print(f'\nA temperatura de {c} ºC corresponde a {f} ºF')
+```
+
+```sh
+Saída no Terminal
+
+Indorme a temperatura em ºC: 40
+
+A temperatura de 40.0 ºC corresponde a 104.0 ºF
+```
+
