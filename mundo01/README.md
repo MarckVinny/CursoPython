@@ -968,3 +968,61 @@ Indorme a temperatura em ºC: 40
 A temperatura de 40.0 ºC corresponde a 104.0 ºF
 ```
 
+## ::: Desafio 015 :::
+
+Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais foi alugado.  
+Calcule o preço a pagar, sabendo que o carro R$ 60,00 por dia e R$ 0,15 por Km rodado.
+
+### Resposta - Aluguel de Carros
+
+Minha solução
+
+```py
+import os
+
+os.system('clear')  # Limpa o terminal antes de rodar o código
+
+print('\
+    \n:::::::::::::::::::::::::\
+    \n:::    Programa de    :::\
+    \n::: Aluguel de Carros :::\
+    \n:::::::::::::::::::::::::')
+
+nkm = float(input('\nQuantos Km foram percorridos? '))
+ndias = int(input('\nQuantos dias foi alugado? '))
+aluguel = 60 * ndias
+km = 0.15 * nkm
+preco = aluguel + km
+
+print(f'\
+    \nForam percorridos {nkm:.2f} Km.\
+        \nO carro foi alugado por {ndias} dias.\
+            \nValor total a pagar: R$ {preco:.2f}')
+```
+
+```sh
+Saída no Terminal
+
+:::::::::::::::::::::::::     
+:::    Programa de    :::     
+::: Aluguel de Carros :::     
+:::::::::::::::::::::::::     
+
+Quantos Km foram percorridos? 1535.51
+
+Quantos dias foi alugado? 3
+
+Foram percorridos 1535.51 Km.
+O carro foi alugado por 3 dias.
+Valor total a pagar: R$ 410.33
+```
+
+### Resposta do Prof. Guanabara
+
+```py
+dias = int(input('Quantos dias alugados? '))
+km = float(input('Quantos Km rodados? '))
+pago = (dias * 60) + (km * 0.15)
+
+print('O total a pagar é de R$ {:.2f}'.format(pago))
+```
