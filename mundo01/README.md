@@ -1,7 +1,7 @@
 <h1>Sumário</h1>
 <!-- TOC -->
 
-- [<center>:::::::: Módulo 01 - Mundo 01 ::::::::</center>](#center-m%C3%B3dulo-01---mundo-01-center)
+- [<h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >](#h1-aligncenter-m%C3%B3dulo-01---mundo-01-h1-)
     - [::: Aula 05 :::](#-aula-05-)
         - [::: Tipos Primitivos :::](#-tipos-primitivos-)
     - [:::: Aula 06 ::::](#-aula-06-)
@@ -59,7 +59,7 @@ ___
 ###### <center> Ministrado pelo Professor Gustavo Guanabara do [Curso em Vídeo.](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1)
 ___
 
-# <center>:::::::: Módulo 01 - Mundo 01 ::::::::</center>
+# <h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >
 
 ## ::: Aula 05 :::
 Na quarta aula foi criado um desafio *(Desafio 03)* para ler dois números e calcular a soma entre eles. 
