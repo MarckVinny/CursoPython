@@ -15,9 +15,9 @@ ___
 
 ___
 
-## ::: Aula 05 :::
+# ::: Aula 05 :::
 
-##### [⬆ Sumário](#sumário)
+###### [⬆ Sumário](#sumário)
 
 Na quarta aula foi criado um desafio *(Desafio 03)* para ler dois números e calcular a soma entre eles. 
 No arquivo `exec003.py` dentro da pasta `/desafios`, se encontra tanto o desafio quanto a resposta.
