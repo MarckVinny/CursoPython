@@ -6,15 +6,18 @@ ___
 <h6 align='center'> Ministrado pelo Professor Gustavo Guanabara do <a href='https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1'> Curso em Vídeo.</a></h6>
 
 ___
+<h2>Sumário</h2>
 
 [[_TOC_]]
 
 ___
 <h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >
-
 ___
 
 ## ::: Aula 05 :::
+
+##### [⬆ Sumário](#sumário)
+
 Na quarta aula foi criado um desafio *(Desafio 03)* para ler dois números e calcular a soma entre eles. 
 No arquivo `exec003.py` dentro da pasta `/desafios`, se encontra tanto o desafio quanto a resposta.
 Então foi feito da seguinte forma:
@@ -34,6 +37,8 @@ Tudo isso, foi o *Desafio 03* que foi visto na *Aula 04*, mas, o código da form
 Pois, o invés de fazer a soma de `n1 + n2`, ele irá concatenar *(juntar)*, pois, o sinal de + não estava servindo como adição, mas sim como concatenação e isso aconteceu porquê não foram usados os conceitos desta aula, que serão, os Tipos Primitivos.
 
 ### ::: Tipos Primitivos :::
+
+##### [⬆ Sumário](#sumário)
 
 Para resolver o problema, de que, quando o valor é digitado `input`, mesmo que seja um número, ele não é considerado como número, mas sim como sendo uma string.
 
@@ -100,6 +105,8 @@ print(type(nome_variável))
 
 ## :::: Aula 06 ::::
 
+##### [⬆ Sumário](#sumário)
+
 Os exemplos a seguir, se encontram na pasta `/exercícios` no arquivo `aula_06.py`
 
 Vamos ler um número qualquer:
@@ -117,6 +124,9 @@ Para testar os Tipos Primitivos, utilizamos o comando:
 ```python
 print(type(nome_da_variável))
 ```
+### Testes de String
+
+##### [⬆ Sumário](#sumário)
 
 Através do comando `print()`, podemos fazer diversos testes usando o `type` ou usando o ponto `.` após a variável, a seguir alguns Métodos de string:
 
@@ -163,7 +173,9 @@ Retorna `True` se a string é um `identificador válido` conforme a definição 
 
 Chame `keyword.iskeyword()` para testar se a string é uma `palavra reservada`, tal como `def` e `class`.
 
-### Exemplo:
+### Testando se a String é uma palavra reservada
+
+##### [⬆ Sumário](#sumário)
 
 ```python
    from keyword import iskeyword
@@ -1041,7 +1053,6 @@ print('O total a pagar é de R$ {:.2f}'.format(pago))
 
 # ::: Aula 08:::
 <!-- TOC ignore:true -->
-
 ###### [⬆ Sumário](#sumário)
 
 ## Teste
