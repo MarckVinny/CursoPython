@@ -158,6 +158,8 @@ Caracteres ASCII têm pontos de código no intervalo U+0000-U+007F.
 
 ### Novo na versão 3.7
 
+##### [⬆ Sumário](#sumário)
+
 * `str.isdecimal()`  
 Retorna `True` se todos os caracteres na string são caracteres `decimais` e existe pelo menos um caractere, `False` caso contrário.  
 Caracteres `decimais` são aqueles que podem ser usados para formar números na `base 10`, `exemplo U+0660`, ou `dígito zero` para arábico-índico.  
