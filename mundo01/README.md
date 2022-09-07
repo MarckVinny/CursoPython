@@ -11,49 +11,49 @@ ___
 
 <!-- vscode-markdown-toc -->
 * [::: Aula 05 :::](#Aula05)
-* [::: Tipos Primitivos :::](#TiposPrimitivos:::)
-* [:::: Aula 06 ::::](#Aula06::::)
+* [::: Tipos Primitivos :::](#TiposPrimitivos)
+* [:::: Aula 06 ::::](#Aula06)
 	* [Testes de String](#TestesdeString)
 	* [Novo na versão 3.7](#Novonaverso3.7)
 	* [Testando se a String é uma palavra reservada](#TestandoseaStringumapalavrareservada)
-* [::: Desafio 004 :::](#Desafio004:::)
+* [::: Desafio 004 :::](#Desafio004)
 	* [Resposta Desafio 04](#RespostaDesafio04)
-* [:::: Aula 07 ::::](#Aula07::::)
+* [:::: Aula 07 ::::](#Aula07)
 * [Operadores Aritméticos](#OperadoresAritmticos)
 	* [Exemplos:](#Exemplos:)
 	* [Divisão Inteira com Resto da Divisão:](#DivisoInteiracomRestodaDiviso:)
 * [Ordem de Precedência - Operadores Aritméticos](#OrdemdePrecedncia-OperadoresAritmticos)
 	* [Exemplos:](#Exemplos:-1)
 	* [Usado Operadores Aritméticos com string](#UsadoOperadoresAritmticoscomstring)
-* [::: Tipos de Alinhamentos :::](#TiposdeAlinhamentos:::)
-* [::: Calculando e Replicando informações :::](#CalculandoeReplicandoinformaes:::)
-* [::: Desafio 005 :::](#Desafio005:::)
+* [::: Tipos de Alinhamentos :::](#TiposdeAlinhamentos)
+* [::: Calculando e Replicando informações :::](#CalculandoeReplicandoinformaes)
+* [::: Desafio 005 :::](#Desafio005)
 	* [Resposta - Antecessor e Sucessor de um número](#Resposta-AntecessoreSucessordeumnmero)
 	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara)
-* [::: Desafio 006 :::](#Desafio006:::)
+* [::: Desafio 006 :::](#Desafio006)
 	* [Resposta - Dobro, Triplo e Raiz quadrada](#Resposta-DobroTriploeRaizquadrada)
 	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
-* [::: Desafio 007 :::](#Desafio007:::)
+* [::: Desafio 007 :::](#Desafio007)
 	* [Resposta - Média do Aluno](#Resposta-MdiadoAluno)
 	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
-* [::: Desafio 008 :::](#Desafio008:::)
+* [::: Desafio 008 :::](#Desafio008)
 	* [Resposta - Conversor de Metros para Centímetros e Milímetros](#Resposta-ConversordeMetrosparaCentmetroseMilmetros)
-* [::: Desafio 009 :::](#Desafio009:::)
+* [::: Desafio 009 :::](#Desafio009)
 	* [Resposta - Gerador de Tabuada](#Resposta-GeradordeTabuada)
 	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
-* [::: Desafio 010 :::](#Desafio010:::)
+* [::: Desafio 010 :::](#Desafio010)
 	* [Resposta - Conversor Dólar/Real](#Resposta-ConversorDlarReal)
 	* [Resposta Prof. Guanabara](#RespostaProf.Guanabara)
-* [::: Desafio 011 :::](#Desafio011:::)
+* [::: Desafio 011 :::](#Desafio011)
 	* [Resposta - Cálculo de área e rendimento e tinta](#Resposta-Clculodereaerendimentoetinta)
 	* [Resposta Prof. Guanabara](#RespostaProf.Guanabara-1)
-* [::: Desafio 012 :::](#Desafio012:::)
+* [::: Desafio 012 :::](#Desafio012)
 	* [Resposta - Produto com Desconto](#Resposta-ProdutocomDesconto)
-* [::: Desafio 013 :::](#Desafio013:::)
+* [::: Desafio 013 :::](#Desafio013)
 	* [Resposta - Aumento de Salário](#Resposta-AumentodeSalrio)
-* [::: Desafio 014 :::](#Desafio014:::)
+* [::: Desafio 014 :::](#Desafio014)
 	* [Conversor de Temperatura de ºC para ºF](#ConversordeTemperaturadeCparaF)
-* [::: Desafio 015 :::](#Desafio015:::)
+* [::: Desafio 015 :::](#Desafio015)
 	* [Resposta - Aluguel de Carros](#Resposta-AlugueldeCarros)
 	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
 * [Teste](#Teste)
@@ -92,7 +92,7 @@ Então foi feito da seguinte forma:
 Tudo isso, foi o *Desafio 03* que foi visto na *Aula 04*, mas, o código da forma que está, não irá funcionar corretamente.
 Pois, o invés de fazer a soma de `n1 + n2`, ele irá concatenar *(juntar)*, pois, o sinal de + não estava servindo como adição, mas sim como concatenação e isso aconteceu porquê não foram usados os conceitos desta aula, que serão, os Tipos Primitivos.  
 
-## <a name='TiposPrimitivos:::'></a>::: Tipos Primitivos :::
+## <a name='TiposPrimitivos'></a>::: Tipos Primitivos :::
 
 ##### [⬆ Sumário](#sumário)
 
@@ -159,7 +159,7 @@ Aparentemente pode parecer que o código ficou maior que o anterior, mas, adiant
 print(type(nome_variável))
 ```
 
-## <a name='Aula06::::'></a>:::: Aula 06 ::::
+## <a name='Aula06'>'</a>:::: Aula 06 ::::
 
 ##### [⬆ Sumário](#sumário)
 
@@ -289,7 +289,7 @@ False
 
 Por estar lendo o que foi digitado através do `input`, o Tipo será sempre uma String, mas, se for convertê-lo para outra Tipo, é outra história.
 
-## <a name='Desafio004:::'></a>::: Desafio 004 :::
+## <a name='Desafio004'></a>::: Desafio 004 :::
 
 Crie um programa que leia algo digitado no teclado e mostre na Tela o seu Tipo Primitivo e todas as informações possíveis sobre ela.
 
@@ -325,7 +325,7 @@ print ('\nO Tipo Primitivo desde valor é: {} \
                                                         ))
 ```
 
-## <a name='Aula07::::'></a>:::: Aula 07 ::::
+## <a name='Aula07'>'</a>:::: Aula 07 ::::
 
 ## <a name='OperadoresAritmticos'></a>Operadores Aritméticos
 
@@ -396,7 +396,7 @@ Terminal
 ====================
 ```
 
-## <a name='TiposdeAlinhamentos:::'></a>::: Tipos de Alinhamentos :::
+## <a name='TiposdeAlinhamentos'></a>::: Tipos de Alinhamentos :::
 
 Também podemos usar o ***.format()*** para poder formatar o ***print()*** de uma forma mais inteligente:  
 Usando `:20` dentro máscara `{}` do `.format()`, podemos especificar quantos caracteres serão mostrados dentro da máscara, com isso podemos fazer outros tipos de alinhamentos como veremos a seguir:  
@@ -460,7 +460,7 @@ Prazer em te conhecer =======Marcos=======!
 
 > <h2><center> Agora vamos voltar a aula dos Operadores Aritméticos
 
-## <a name='CalculandoeReplicandoinformaes:::'></a>::: Calculando e Replicando informações :::
+## <a name='CalculandoeReplicandoinformaes'></a>::: Calculando e Replicando informações :::
 
 No exercício a seguir, iremos ver como podemos realizar diversos cálculos utilizando somente dois números digitados pelo usuário.
 
@@ -504,7 +504,7 @@ O resto da divisão é: 3
 O exponencial é: 205891132094649
 ```
 
-## <a name='Desafio005:::'></a>::: Desafio 005 :::
+## <a name='Desafio005'></a>::: Desafio 005 :::
 
 Crie um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.  
 
@@ -566,7 +566,7 @@ print('\
 
 ```
 
-## <a name='Desafio006:::'></a>::: Desafio 006 :::
+## <a name='Desafio006'></a>::: Desafio 006 :::
 
 Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada.
 
@@ -624,7 +624,7 @@ print('\
                 \nE sua raiz quadrada é: {.2f}'.format(n, (n * 2), (n * 3), (n ** 1/2)))
 ```
 
-## <a name='Desafio007:::'></a>::: Desafio 007 :::
+## <a name='Desafio007'></a>::: Desafio 007 :::
 
 Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua média.
 
@@ -683,7 +683,7 @@ print('\
     \nA média entre {:.1f} e {:1f} é igual a {:.1f}'.format(n1, n2, media))
 ```
 
-## <a name='Desafio008:::'></a>::: Desafio 008 :::
+## <a name='Desafio008'></a>::: Desafio 008 :::
 
 Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
 
@@ -722,7 +722,7 @@ Digite uma medida em Metros: 0.0015
 0.0015 metros é o mesmo que: 1.5 milímetros
 ```
 
-## <a name='Desafio009:::'></a>::: Desafio 009 :::
+## <a name='Desafio009'></a>::: Desafio 009 :::
 
 Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada.
 
@@ -823,7 +823,7 @@ print('\
                  n1, 10, (n1 * 10)))
 ```
 
-## <a name='Desafio010:::'></a>::: Desafio 010 :::
+## <a name='Desafio010'></a>::: Desafio 010 :::
 
 Crie um programa que leia quanto dinheiro o usuário tem na carteira e mostre quantos dólares ela pode comprar.
 
@@ -871,7 +871,7 @@ dolar = real / 3.27
 print('Com R$ {:.2f} você pode comprar US$ {:.2f}'.format(real, dolar))
 ```
 
-## <a name='Desafio011:::'></a>::: Desafio 011 :::
+## <a name='Desafio011'></a>::: Desafio 011 :::
 
 Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que a cada litro de tinta pinta uma área de 2m<sup>2</sup>.
 
@@ -935,7 +935,7 @@ tinta = área / 2
 print('Para pintar essa parede, você precisará de {}l de tinta.'.format(tinta))
 ```
 
-## <a name='Desafio012:::'></a>::: Desafio 012 :::
+## <a name='Desafio012'></a>::: Desafio 012 :::
 
 Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
 
@@ -977,7 +977,7 @@ Valor com Desconto R$ 569.05
 Boas compras e Volte Sempre!
 ```
 
-## <a name='Desafio013:::'></a>::: Desafio 013 :::
+## <a name='Desafio013'></a>::: Desafio 013 :::
 
 Faça um algorítimo que leia o salário de um Funcionário e mostre seu novo salário com 15% de aumento.
 
@@ -1016,7 +1016,7 @@ O valor do salário é R$ 1212.00
 Novo valor com Aumento R$ 1393.80
 ```
 
-## <a name='Desafio014:::'></a>::: Desafio 014 :::
+## <a name='Desafio014'></a>::: Desafio 014 :::
 
 Escreva um programa que converta a temperatura digitada em ºC e a converta para ºF.  
 
@@ -1050,7 +1050,7 @@ Indorme a temperatura em ºC: 40
 A temperatura de 40.0 ºC corresponde a 104.0 ºF
 ```
 
-## <a name='Desafio015:::'></a>::: Desafio 015 :::
+## <a name='Desafio015'></a>::: Desafio 015 :::
 
 Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais foi alugado.  
 Calcule o preço a pagar, sabendo que o carro R$ 60,00 por dia e R$ 0,15 por Km rodado.
