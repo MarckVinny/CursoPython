@@ -1,57 +1,3 @@
-<h1>Sumário</h1>
-<!-- TOC -->
-
-- [<h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >](#h1-aligncenter-m%C3%B3dulo-01---mundo-01-h1-)
-    - [::: Aula 05 :::](#-aula-05-)
-        - [::: Tipos Primitivos :::](#-tipos-primitivos-)
-    - [:::: Aula 06 ::::](#-aula-06-)
-        - [Novo na versão 3.7.](#novo-na-vers%C3%A3o-37)
-        - [Exemplo:](#exemplo)
-    - [::: Desafio 004 :::](#-desafio-004-)
-        - [Resposta Desafio 04](#resposta-desafio-04)
-    - [:::: Aula 07 ::::](#-aula-07-)
-    - [Operadores Aritméticos](#operadores-aritm%C3%A9ticos)
-        - [Exemplos:](#exemplos)
-        - [Divisão Inteira com Resto da Divisão:](#divis%C3%A3o-inteira-com-resto-da-divis%C3%A3o)
-    - [Ordem de Precedência - Operadores Aritméticos](#ordem-de-preced%C3%AAncia---operadores-aritm%C3%A9ticos)
-        - [Exemplos:](#exemplos)
-        - [Usado Operadores Aritméticos com string](#usado-operadores-aritm%C3%A9ticos-com-string)
-    - [::: Tipos de Alinhamentos :::](#-tipos-de-alinhamentos-)
-    - [::: Calculando e Replicando informações :::](#-calculando-e-replicando-informa%C3%A7%C3%B5es-)
-    - [::: Desafio 005 :::](#-desafio-005-)
-        - [Resposta - Antecessor e Sucessor de um número](#resposta---antecessor-e-sucessor-de-um-n%C3%BAmero)
-        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
-    - [::: Desafio 006 :::](#-desafio-006-)
-        - [Resposta - Dobro, Triplo e Raiz quadrada](#resposta---dobro-triplo-e-raiz-quadrada)
-        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
-    - [::: Desafio 007 :::](#-desafio-007-)
-        - [Resposta - Média do Aluno](#resposta---m%C3%A9dia-do-aluno)
-        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
-    - [::: Desafio 008 :::](#-desafio-008-)
-        - [Resposta - Conversor de Metros para Centímetros e Milímetros](#resposta---conversor-de-metros-para-cent%C3%ADmetros-e-mil%C3%ADmetros)
-    - [::: Desafio 009 :::](#-desafio-009-)
-        - [Resposta - Gerador de Tabuada](#resposta---gerador-de-tabuada)
-        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
-    - [::: Desafio 010 :::](#-desafio-010-)
-        - [Resposta - Conversor Dólar/Real](#resposta---conversor-d%C3%B3larreal)
-        - [Resposta Prof. Guanabara](#resposta-prof-guanabara)
-    - [::: Desafio 011 :::](#-desafio-011-)
-        - [Resposta - Cálculo de área e rendimento e tinta](#resposta---c%C3%A1lculo-de-%C3%A1rea-e-rendimento-e-tinta)
-        - [Resposta Prof. Guanabara](#resposta-prof-guanabara)
-    - [::: Desafio 012 :::](#-desafio-012-)
-        - [Resposta - Produto com Desconto](#resposta---produto-com-desconto)
-    - [::: Desafio 013 :::](#-desafio-013-)
-        - [Resposta - Aumento de Salário](#resposta---aumento-de-sal%C3%A1rio)
-    - [::: Desafio 014 :::](#-desafio-014-)
-        - [Conversor de Temperatura de ºC para ºF](#conversor-de-temperatura-de-%C2%BAc-para-%C2%BAf)
-    - [::: Desafio 015 :::](#-desafio-015-)
-        - [Resposta - Aluguel de Carros](#resposta---aluguel-de-carros)
-        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
-- [::: Aula 08:::](#-aula-08)
-    - [Teste](#teste)
-
-<!-- /TOC -->
-
 ___
 <!-- TOC ignore:true -->
 <h1 align="center"> :::::: Curso de Python :::::: </h1>
@@ -61,7 +7,12 @@ ___
 
 ___
 
-# <h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >
+[[_TOC_]]
+
+___
+<h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >
+
+___
 
 ## ::: Aula 05 :::
 Na quarta aula foi criado um desafio *(Desafio 03)* para ler dois números e calcular a soma entre eles. 
@@ -194,7 +145,7 @@ print('\nFoi digitado: {} \nÉ Alfanumérico? \n{} \n\nA variável é do Tipo  \
 Retorna `True` se a string é `vazia` ou se todos os caracteres na string são `ASCII`, `False` caso contrário.  
 Caracteres ASCII têm pontos de código no intervalo U+0000-U+007F.
 
-### Novo na versão 3.7.
+### Novo na versão 3.7
 
 * `str.isdecimal()`  
 Retorna `True` se todos os caracteres na string são caracteres `decimais` e existe pelo menos um caractere, `False` caso contrário.  
@@ -588,6 +539,7 @@ Seu dobro é: 18
 Seu triplo é: 27
 E sua raiz quadrada é: 3.0
 ```
+
 ### Resposta do Prof. Guanabara
 
 Solução usando menos variáveis
@@ -1086,8 +1038,10 @@ pago = (dias * 60) + (km * 0.15)
 
 print('O total a pagar é de R$ {:.2f}'.format(pago))
 ```
+
 # ::: Aula 08:::
 <!-- TOC ignore:true -->
+
 ###### [⬆ Sumário](#sumário)
 
 ## Teste
