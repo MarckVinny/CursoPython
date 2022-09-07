@@ -8,7 +8,7 @@ ___
 ___
 <h2>Sumário</h2>
 
-[[_TOC_]]
+[_TOC_]
 
 ___
 <h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >
