@@ -1,9 +1,67 @@
-# :::::: Curso de Python ::::::
-###### Ministrado pelo Professor Gustavo Guanabara do [Curso em Vídeo.](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1)
----
+<h1>Sumário</h1>
+<!-- TOC -->
 
-## :::::::: Módulo 01 - Mundo 01 ::::::::
+- [<center>:::::::: Módulo 01 - Mundo 01 ::::::::</center>](#center-m%C3%B3dulo-01---mundo-01-center)
+    - [::: Aula 05 :::](#-aula-05-)
+        - [::: Tipos Primitivos :::](#-tipos-primitivos-)
+    - [:::: Aula 06 ::::](#-aula-06-)
+        - [Novo na versão 3.7.](#novo-na-vers%C3%A3o-37)
+        - [Exemplo:](#exemplo)
+    - [::: Desafio 004 :::](#-desafio-004-)
+        - [Resposta Desafio 04](#resposta-desafio-04)
+    - [:::: Aula 07 ::::](#-aula-07-)
+    - [Operadores Aritméticos](#operadores-aritm%C3%A9ticos)
+        - [Exemplos:](#exemplos)
+        - [Divisão Inteira com Resto da Divisão:](#divis%C3%A3o-inteira-com-resto-da-divis%C3%A3o)
+    - [Ordem de Precedência - Operadores Aritméticos](#ordem-de-preced%C3%AAncia---operadores-aritm%C3%A9ticos)
+        - [Exemplos:](#exemplos)
+        - [Usado Operadores Aritméticos com string](#usado-operadores-aritm%C3%A9ticos-com-string)
+    - [::: Tipos de Alinhamentos :::](#-tipos-de-alinhamentos-)
+    - [::: Calculando e Replicando informações :::](#-calculando-e-replicando-informa%C3%A7%C3%B5es-)
+    - [::: Desafio 005 :::](#-desafio-005-)
+        - [Resposta - Antecessor e Sucessor de um número](#resposta---antecessor-e-sucessor-de-um-n%C3%BAmero)
+        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
+    - [::: Desafio 006 :::](#-desafio-006-)
+        - [Resposta - Dobro, Triplo e Raiz quadrada](#resposta---dobro-triplo-e-raiz-quadrada)
+        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
+    - [::: Desafio 007 :::](#-desafio-007-)
+        - [Resposta - Média do Aluno](#resposta---m%C3%A9dia-do-aluno)
+        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
+    - [::: Desafio 008 :::](#-desafio-008-)
+        - [Resposta - Conversor de Metros para Centímetros e Milímetros](#resposta---conversor-de-metros-para-cent%C3%ADmetros-e-mil%C3%ADmetros)
+    - [::: Desafio 009 :::](#-desafio-009-)
+        - [Resposta - Gerador de Tabuada](#resposta---gerador-de-tabuada)
+        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
+    - [::: Desafio 010 :::](#-desafio-010-)
+        - [Resposta - Conversor Dólar/Real](#resposta---conversor-d%C3%B3larreal)
+        - [Resposta Prof. Guanabara](#resposta-prof-guanabara)
+    - [::: Desafio 011 :::](#-desafio-011-)
+        - [Resposta - Cálculo de área e rendimento e tinta](#resposta---c%C3%A1lculo-de-%C3%A1rea-e-rendimento-e-tinta)
+        - [Resposta Prof. Guanabara](#resposta-prof-guanabara)
+    - [::: Desafio 012 :::](#-desafio-012-)
+        - [Resposta - Produto com Desconto](#resposta---produto-com-desconto)
+    - [::: Desafio 013 :::](#-desafio-013-)
+        - [Resposta - Aumento de Salário](#resposta---aumento-de-sal%C3%A1rio)
+    - [::: Desafio 014 :::](#-desafio-014-)
+        - [Conversor de Temperatura de ºC para ºF](#conversor-de-temperatura-de-%C2%BAc-para-%C2%BAf)
+    - [::: Desafio 015 :::](#-desafio-015-)
+        - [Resposta - Aluguel de Carros](#resposta---aluguel-de-carros)
+        - [Resposta do Prof. Guanabara](#resposta-do-prof-guanabara)
+- [::: Aula 08:::](#-aula-08)
+    - [Teste](#teste)
 
+<!-- /TOC -->
+
+___
+<!-- TOC ignore:true -->
+# <center>:::::: Curso de Python ::::::
+<!-- TOC ignore:true -->
+###### <center> Ministrado pelo Professor Gustavo Guanabara do [Curso em Vídeo.](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1)
+___
+
+# <center>:::::::: Módulo 01 - Mundo 01 ::::::::</center>
+
+## ::: Aula 05 :::
 Na quarta aula foi criado um desafio *(Desafio 03)* para ler dois números e calcular a soma entre eles. 
 No arquivo `exec003.py` dentro da pasta `/desafios`, se encontra tanto o desafio quanto a resposta.
 Então foi feito da seguinte forma:
@@ -22,7 +80,7 @@ Então foi feito da seguinte forma:
 Tudo isso, foi o *Desafio 03* que foi visto na *Aula 04*, mas, o código da forma que está, não irá funcionar corretamente.
 Pois, o invés de fazer a soma de `n1 + n2`, ele irá concatenar *(juntar)*, pois, o sinal de + não estava servindo como adição, mas sim como concatenação e isso aconteceu porquê não foram usados os conceitos desta aula, que serão, os Tipos Primitivos.
 
-## ::: Tipos Primitivos :::
+### ::: Tipos Primitivos :::
 
 Para resolver o problema, de que, quando o valor é digitado `input`, mesmo que seja um número, ele não é considerado como número, mas sim como sendo uma string.
 
@@ -152,7 +210,7 @@ Retorna `True` se a string é um `identificador válido` conforme a definição 
 
 Chame `keyword.iskeyword()` para testar se a string é uma `palavra reservada`, tal como `def` e `class`.
 
-#### Exemplo:
+### Exemplo:
 
 ```python
    from keyword import iskeyword
@@ -273,7 +331,7 @@ Operadores Aritméticos, funcionam como ***Operadores Binários*** *(precisam de
 * 5 `//` 2 `==` 2;
 * 5 `%` 2 `==` 1.
 
-#### Divisão Inteira com Resto da Divisão:
+### Divisão Inteira com Resto da Divisão:
 ![Operadores Aritméticos](./imagens/aula_07_01.jpg)
 
 ## Ordem de Precedência - Operadores Aritméticos
@@ -377,7 +435,7 @@ print('Prazer em te conhecer {:=^20}!'.format(nome))
 Prazer em te conhecer =======Marcos=======!
 ```
 
-> ## Agora vamos voltar a aula dos Operadores Aritméticos
+> <h2><center> Agora vamos voltar a aula dos Operadores Aritméticos
 
 ## ::: Calculando e Replicando informações :::
 
@@ -1026,3 +1084,8 @@ pago = (dias * 60) + (km * 0.15)
 
 print('O total a pagar é de R$ {:.2f}'.format(pago))
 ```
+# ::: Aula 08:::
+<!-- TOC ignore:true -->
+###### [⬆ Sumário](#sumário)
+
+## Teste
