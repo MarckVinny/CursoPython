@@ -7,7 +7,62 @@ ___
 
 ___
 
-[TOC]
+<h2>Sumário</h2>
+
+<!-- vscode-markdown-toc -->
+* [::: Aula 05 :::](#Aula05:::)
+* [::: Tipos Primitivos :::](#TiposPrimitivos:::)
+* [:::: Aula 06 ::::](#Aula06::::)
+	* [Testes de String](#TestesdeString)
+	* [Novo na versão 3.7](#Novonaverso3.7)
+	* [Testando se a String é uma palavra reservada](#TestandoseaStringumapalavrareservada)
+* [::: Desafio 004 :::](#Desafio004:::)
+	* [Resposta Desafio 04](#RespostaDesafio04)
+* [:::: Aula 07 ::::](#Aula07::::)
+* [Operadores Aritméticos](#OperadoresAritmticos)
+	* [Exemplos:](#Exemplos:)
+	* [Divisão Inteira com Resto da Divisão:](#DivisoInteiracomRestodaDiviso:)
+* [Ordem de Precedência - Operadores Aritméticos](#OrdemdePrecedncia-OperadoresAritmticos)
+	* [Exemplos:](#Exemplos:-1)
+	* [Usado Operadores Aritméticos com string](#UsadoOperadoresAritmticoscomstring)
+* [::: Tipos de Alinhamentos :::](#TiposdeAlinhamentos:::)
+* [::: Calculando e Replicando informações :::](#CalculandoeReplicandoinformaes:::)
+* [::: Desafio 005 :::](#Desafio005:::)
+	* [Resposta - Antecessor e Sucessor de um número](#Resposta-AntecessoreSucessordeumnmero)
+	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara)
+* [::: Desafio 006 :::](#Desafio006:::)
+	* [Resposta - Dobro, Triplo e Raiz quadrada](#Resposta-DobroTriploeRaizquadrada)
+	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
+* [::: Desafio 007 :::](#Desafio007:::)
+	* [Resposta - Média do Aluno](#Resposta-MdiadoAluno)
+	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
+* [::: Desafio 008 :::](#Desafio008:::)
+	* [Resposta - Conversor de Metros para Centímetros e Milímetros](#Resposta-ConversordeMetrosparaCentmetroseMilmetros)
+* [::: Desafio 009 :::](#Desafio009:::)
+	* [Resposta - Gerador de Tabuada](#Resposta-GeradordeTabuada)
+	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
+* [::: Desafio 010 :::](#Desafio010:::)
+	* [Resposta - Conversor Dólar/Real](#Resposta-ConversorDlarReal)
+	* [Resposta Prof. Guanabara](#RespostaProf.Guanabara)
+* [::: Desafio 011 :::](#Desafio011:::)
+	* [Resposta - Cálculo de área e rendimento e tinta](#Resposta-Clculodereaerendimentoetinta)
+	* [Resposta Prof. Guanabara](#RespostaProf.Guanabara-1)
+* [::: Desafio 012 :::](#Desafio012:::)
+	* [Resposta - Produto com Desconto](#Resposta-ProdutocomDesconto)
+* [::: Desafio 013 :::](#Desafio013:::)
+	* [Resposta - Aumento de Salário](#Resposta-AumentodeSalrio)
+* [::: Desafio 014 :::](#Desafio014:::)
+	* [Conversor de Temperatura de ºC para ºF](#ConversordeTemperaturadeCparaF)
+* [::: Desafio 015 :::](#Desafio015:::)
+	* [Resposta - Aluguel de Carros](#Resposta-AlugueldeCarros)
+	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
+* [Teste](#Teste)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
 ___
 
@@ -15,7 +70,7 @@ ___
 
 ___
 
-# ::: Aula 05 :::
+## <a name='Aula05:::'></a>::: Aula 05 :::
 
 ###### [⬆ Sumário](#sumário)
 
@@ -35,9 +90,9 @@ Então foi feito da seguinte forma:
 * Que ficará da seguinte forma: `print('A soma vale: ', s)`.
 
 Tudo isso, foi o *Desafio 03* que foi visto na *Aula 04*, mas, o código da forma que está, não irá funcionar corretamente.
-Pois, o invés de fazer a soma de `n1 + n2`, ele irá concatenar *(juntar)*, pois, o sinal de + não estava servindo como adição, mas sim como concatenação e isso aconteceu porquê não foram usados os conceitos desta aula, que serão, os Tipos Primitivos.
+Pois, o invés de fazer a soma de `n1 + n2`, ele irá concatenar *(juntar)*, pois, o sinal de + não estava servindo como adição, mas sim como concatenação e isso aconteceu porquê não foram usados os conceitos desta aula, que serão, os Tipos Primitivos.  
 
-### ::: Tipos Primitivos :::
+## <a name='TiposPrimitivos:::'></a>::: Tipos Primitivos :::
 
 ##### [⬆ Sumário](#sumário)
 
@@ -104,7 +159,7 @@ Aparentemente pode parecer que o código ficou maior que o anterior, mas, adiant
 print(type(nome_variável))
 ```
 
-## :::: Aula 06 ::::
+## <a name='Aula06::::'></a>:::: Aula 06 ::::
 
 ##### [⬆ Sumário](#sumário)
 
@@ -125,7 +180,7 @@ Para testar os Tipos Primitivos, utilizamos o comando:
 ```python
 print(type(nome_da_variável))
 ```
-### Testes de String
+### <a name='TestesdeString'></a>Testes de String
 
 ##### [⬆ Sumário](#sumário)
 
@@ -156,7 +211,7 @@ print('\nFoi digitado: {} \nÉ Alfanumérico? \n{} \n\nA variável é do Tipo  \
 Retorna `True` se a string é `vazia` ou se todos os caracteres na string são `ASCII`, `False` caso contrário.  
 Caracteres ASCII têm pontos de código no intervalo U+0000-U+007F.
 
-### Novo na versão 3.7
+### <a name='Novonaverso3.7'></a>Novo na versão 3.7
 
 ##### [⬆ Sumário](#sumário)
 
@@ -176,7 +231,7 @@ Retorna `True` se a string é um `identificador válido` conforme a definição 
 
 Chame `keyword.iskeyword()` para testar se a string é uma `palavra reservada`, tal como `def` e `class`.
 
-### Testando se a String é uma palavra reservada
+### <a name='TestandoseaStringumapalavrareservada'></a>Testando se a String é uma palavra reservada
 
 ##### [⬆ Sumário](#sumário)
 
@@ -234,7 +289,7 @@ False
 
 Por estar lendo o que foi digitado através do `input`, o Tipo será sempre uma String, mas, se for convertê-lo para outra Tipo, é outra história.
 
-## ::: Desafio 004 :::
+## <a name='Desafio004:::'></a>::: Desafio 004 :::
 
 Crie um programa que leia algo digitado no teclado e mostre na Tela o seu Tipo Primitivo e todas as informações possíveis sobre ela.
 
@@ -245,7 +300,7 @@ No trecho do código a seguir `n.isupper()`:
 * Tudo que possui parênteses depois do Objeto é um Método.  
 * Cada Objeto possui diversos Métodos.
 
-### Resposta Desafio 04
+### <a name='RespostaDesafio04'></a>Resposta Desafio 04
 
 ```python
 print ('====== Desafio 04 =====')
@@ -270,9 +325,9 @@ print ('\nO Tipo Primitivo desde valor é: {} \
                                                         ))
 ```
 
-## :::: Aula 07 ::::
+## <a name='Aula07::::'></a>:::: Aula 07 ::::
 
-## Operadores Aritméticos
+## <a name='OperadoresAritmticos'></a>Operadores Aritméticos
 
 * `+` Adição;
 * `-` Subtração;
@@ -289,7 +344,7 @@ Operadores Aritméticos, funcionam como ***Operadores Binários*** *(precisam de
 > ***Dica<sup>2</sup>:*** No caso de ***Operadores Aritméticos*** só podem ser números ou variáveis que contenham números.  
 >***Dica<sup>3</sup>:*** Quando se quer testar se uma coisa ***é igual a outra***, utilizam-se dois sinais de igual `==`.
 
-### Exemplos:
+### <a name='Exemplos:'></a>Exemplos:
 
 * 5 `+` 2 `==` 7;
 * 5 `-` 2 `==` 3;
@@ -299,10 +354,10 @@ Operadores Aritméticos, funcionam como ***Operadores Binários*** *(precisam de
 * 5 `//` 2 `==` 2;
 * 5 `%` 2 `==` 1.
 
-### Divisão Inteira com Resto da Divisão:
+### <a name='DivisoInteiracomRestodaDiviso:'></a>Divisão Inteira com Resto da Divisão:
 ![Operadores Aritméticos](./imagens/aula_07_01.jpg)
 
-## Ordem de Precedência - Operadores Aritméticos
+## <a name='OrdemdePrecedncia-OperadoresAritmticos'></a>Ordem de Precedência - Operadores Aritméticos
 
 Quem será calculado primeiro na ordem que aparecerem?
 
@@ -312,7 +367,7 @@ Quem será calculado primeiro na ordem que aparecerem?
 > Quando dois operadores possuem a mesma precedência, o que aparece primeiro *(da esquerda para a direita)* na expressão é calculado primeiro.
 * 4º - Adição `+` e Subtração `-` *(binárias)*.`
 
-### Exemplos:
+### <a name='Exemplos:-1'></a>Exemplos:
 
 * 5 `+` 3 `*` 2 `==` 11 => *`(3 * 2 = 6 + 5 = 11)`*;
 * 3 `*` 5 `+` 4 `**` 2 `==` 31 => *`(4 ** 2 = 16 => 3 * 5 = 15 => 15 + 16 = 31)`*;
@@ -324,7 +379,7 @@ O método `pow()` também pertence ao módulo math.
 Ex<sup>1</sup>.: `9 ** (1/2) == 3` ***raiz quadrada***, é o mesmo que `pow(9, 1/2)`.  
 Ex<sup>2</sup>: `27 ** (1/3) == 3` ***raiz cúbica***, é o mesmo que `pow(27, 1/3)`.
 
-### Usado Operadores Aritméticos com string
+### <a name='UsadoOperadoresAritmticoscomstring'></a>Usado Operadores Aritméticos com string
 
 ```sh
 Terminal
@@ -341,7 +396,7 @@ Terminal
 ====================
 ```
 
-## ::: Tipos de Alinhamentos :::
+## <a name='TiposdeAlinhamentos:::'></a>::: Tipos de Alinhamentos :::
 
 Também podemos usar o ***.format()*** para poder formatar o ***print()*** de uma forma mais inteligente:  
 Usando `:20` dentro máscara `{}` do `.format()`, podemos especificar quantos caracteres serão mostrados dentro da máscara, com isso podemos fazer outros tipos de alinhamentos como veremos a seguir:  
@@ -405,7 +460,7 @@ Prazer em te conhecer =======Marcos=======!
 
 > <h2><center> Agora vamos voltar a aula dos Operadores Aritméticos
 
-## ::: Calculando e Replicando informações :::
+## <a name='CalculandoeReplicandoinformaes:::'></a>::: Calculando e Replicando informações :::
 
 No exercício a seguir, iremos ver como podemos realizar diversos cálculos utilizando somente dois números digitados pelo usuário.
 
@@ -449,11 +504,11 @@ O resto da divisão é: 3
 O exponencial é: 205891132094649
 ```
 
-## ::: Desafio 005 :::
+## <a name='Desafio005:::'></a>::: Desafio 005 :::
 
 Crie um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.  
 
-### Resposta - Antecessor e Sucessor de um número
+### <a name='Resposta-AntecessoreSucessordeumnmero'></a>Resposta - Antecessor e Sucessor de um número
 
 Minha solução:
 
@@ -489,7 +544,7 @@ Você digitou: -5
 O sucessor é: -4
 ```
 
-### Resposta do Prof. Guanabara
+### <a name='RespostadoProf.Guanabara'></a>Resposta do Prof. Guanabara
 
 Solução do professor utilizando somente 1 variável economizando assim mais memória.  
 
@@ -511,11 +566,11 @@ print('\
 
 ```
 
-## ::: Desafio 006 :::
+## <a name='Desafio006:::'></a>::: Desafio 006 :::
 
 Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada.
 
-### Resposta - Dobro, Triplo e Raiz quadrada
+### <a name='Resposta-DobroTriploeRaizquadrada'></a>Resposta - Dobro, Triplo e Raiz quadrada
 
 Minha solução.
 
@@ -555,7 +610,7 @@ Seu triplo é: 27
 E sua raiz quadrada é: 3.0
 ```
 
-### Resposta do Prof. Guanabara
+### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
 Solução usando menos variáveis
 
@@ -569,13 +624,13 @@ print('\
                 \nE sua raiz quadrada é: {.2f}'.format(n, (n * 2), (n * 3), (n ** 1/2)))
 ```
 
-## ::: Desafio 007 :::
+## <a name='Desafio007:::'></a>::: Desafio 007 :::
 
 Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua média.
 
 > ***Obs.:*** se ñ estiver dando o resultado correto, prestar atenção na ordem de precedência.
 
-### Resposta - Média do Aluno
+### <a name='Resposta-MdiadoAluno'></a>Resposta - Média do Aluno
 
 Minha solução
 
@@ -614,7 +669,7 @@ Nota 2: 3.8
 média: 6.65
 ```
 
-### Resposta do Prof. Guanabara
+### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
 > ***Dica<sup>1</sup>:*** No Python uma variável pode conter acento.  
 ***Dica<sup>2</sup>:*** Formatando a máscara para mostrar somente 1 casa decimal, o Python faz o arredondamento respeitando as regras algébricas.
@@ -628,11 +683,11 @@ print('\
     \nA média entre {:.1f} e {:1f} é igual a {:.1f}'.format(n1, n2, media))
 ```
 
-## ::: Desafio 008 :::
+## <a name='Desafio008:::'></a>::: Desafio 008 :::
 
 Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
 
-### Resposta - Conversor de Metros para Centímetros e Milímetros
+### <a name='Resposta-ConversordeMetrosparaCentmetroseMilmetros'></a>Resposta - Conversor de Metros para Centímetros e Milímetros
 
 Minha solução
 
@@ -667,11 +722,11 @@ Digite uma medida em Metros: 0.0015
 0.0015 metros é o mesmo que: 1.5 milímetros
 ```
 
-## ::: Desafio 009 :::
+## <a name='Desafio009:::'></a>::: Desafio 009 :::
 
 Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada.
 
-### Resposta - Gerador de Tabuada
+### <a name='Resposta-GeradordeTabuada'></a>Resposta - Gerador de Tabuada
 
 Minha solução
 
@@ -736,7 +791,7 @@ Digite um número e Gere sua Tabuada de Multiplicação: 9
 ::::::::::::::::::::
 ```
 
-### Resposta do Prof. Guanabara
+### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
 ```py
 n1 = int(input('\nDigite um número e Gere sua Tabuada de Multiplicação: '))
@@ -768,13 +823,13 @@ print('\
                  n1, 10, (n1 * 10)))
 ```
 
-## ::: Desafio 010 :::
+## <a name='Desafio010:::'></a>::: Desafio 010 :::
 
 Crie um programa que leia quanto dinheiro o usuário tem na carteira e mostre quantos dólares ela pode comprar.
 
 > Obs.: considere o dólar à R$ 3,27
 
-### Resposta - Conversor Dólar/Real
+### <a name='Resposta-ConversorDlarReal'></a>Resposta - Conversor Dólar/Real
 
 Minha solução
 
@@ -807,7 +862,7 @@ Você possui R$ 99.00
 E pode comprar $ 30.28 dólares.
 ```
 
-### Resposta Prof. Guanabara
+### <a name='RespostaProf.Guanabara'></a>Resposta Prof. Guanabara
 
 ```py
 real = float(input('Quanto dinheiro você tem na carteira? R$ '))
@@ -816,11 +871,11 @@ dolar = real / 3.27
 print('Com R$ {:.2f} você pode comprar US$ {:.2f}'.format(real, dolar))
 ```
 
-## ::: Desafio 011 :::
+## <a name='Desafio011:::'></a>::: Desafio 011 :::
 
 Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que a cada litro de tinta pinta uma área de 2m<sup>2</sup>.
 
-### Resposta - Cálculo de área e rendimento e tinta
+### <a name='Resposta-Clculodereaerendimentoetinta'></a>Resposta - Cálculo de área e rendimento e tinta
 
 Minha solução
 
@@ -868,7 +923,7 @@ Altura: 2.40 m
 Você precisará de 3.60 litros de tinta.
 ```
 
-### Resposta Prof. Guanabara
+### <a name='RespostaProf.Guanabara-1'></a>Resposta Prof. Guanabara
 
 ```py
 larg = float(input('Largura da parede: '))
@@ -880,11 +935,11 @@ tinta = área / 2
 print('Para pintar essa parede, você precisará de {}l de tinta.'.format(tinta))
 ```
 
-## ::: Desafio 012 :::
+## <a name='Desafio012:::'></a>::: Desafio 012 :::
 
 Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
 
-### Resposta - Produto com Desconto
+### <a name='Resposta-ProdutocomDesconto'></a>Resposta - Produto com Desconto
 
 Minha solução
 
@@ -922,11 +977,11 @@ Valor com Desconto R$ 569.05
 Boas compras e Volte Sempre!
 ```
 
-## ::: Desafio 013 :::
+## <a name='Desafio013:::'></a>::: Desafio 013 :::
 
 Faça um algorítimo que leia o salário de um Funcionário e mostre seu novo salário com 15% de aumento.
 
-### Resposta - Aumento de Salário
+### <a name='Resposta-AumentodeSalrio'></a>Resposta - Aumento de Salário
 
 Minha solução
 
@@ -961,7 +1016,7 @@ O valor do salário é R$ 1212.00
 Novo valor com Aumento R$ 1393.80
 ```
 
-## ::: Desafio 014 :::
+## <a name='Desafio014:::'></a>::: Desafio 014 :::
 
 Escreva um programa que converta a temperatura digitada em ºC e a converta para ºF.  
 
@@ -974,7 +1029,7 @@ Escreva um programa que converta a temperatura digitada em ºC e a converta para
 print(f'Teste de formatação{:.2f}')
 ```
 
-### Conversor de Temperatura de ºC para ºF
+### <a name='ConversordeTemperaturadeCparaF'></a>Conversor de Temperatura de ºC para ºF
 
 ```py
 import os
@@ -995,12 +1050,12 @@ Indorme a temperatura em ºC: 40
 A temperatura de 40.0 ºC corresponde a 104.0 ºF
 ```
 
-## ::: Desafio 015 :::
+## <a name='Desafio015:::'></a>::: Desafio 015 :::
 
 Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais foi alugado.  
 Calcule o preço a pagar, sabendo que o carro R$ 60,00 por dia e R$ 0,15 por Km rodado.
 
-### Resposta - Aluguel de Carros
+### <a name='Resposta-AlugueldeCarros'></a>Resposta - Aluguel de Carros
 
 Minha solução
 
@@ -1044,7 +1099,7 @@ O carro foi alugado por 3 dias.
 Valor total a pagar: R$ 410.33
 ```
 
-### Resposta do Prof. Guanabara
+### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
 ```py
 dias = int(input('Quantos dias alugados? '))
@@ -1058,4 +1113,4 @@ print('O total a pagar é de R$ {:.2f}'.format(pago))
 <!-- TOC ignore:true -->
 ###### [⬆ Sumário](#sumário)
 
-## Teste
+## <a name='Teste'></a>Teste
