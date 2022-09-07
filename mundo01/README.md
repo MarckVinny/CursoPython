@@ -10,7 +10,7 @@ ___
 <h2>Sumário</h2>
 
 <!-- vscode-markdown-toc -->
-* [::: Aula 05 :::](#Aula05:::)
+* [::: Aula 05 :::](#Aula05)
 * [::: Tipos Primitivos :::](#TiposPrimitivos:::)
 * [:::: Aula 06 ::::](#Aula06::::)
 	* [Testes de String](#TestesdeString)
@@ -70,7 +70,7 @@ ___
 
 ___
 
-## <a name='Aula05:::'></a>::: Aula 05 :::
+## <a name='Aula05'></a>::: Aula 05 :::
 
 ###### [⬆ Sumário](#sumário)
 
