@@ -54,9 +54,9 @@
 
 ___
 <!-- TOC ignore:true -->
-# <center>:::::: Curso de Python ::::::
+<h1 align="center">:::::: Curso de Python ::::::</h1>
 <!-- TOC ignore:true -->
-###### <center> Ministrado pelo Professor Gustavo Guanabara do [Curso em Vídeo.](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1)
+###### Ministrado pelo Professor Gustavo Guanabara do [Curso em Vídeo.](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&index=1)
 ___
 
 # <h1 align="center">:::::::: Módulo 01 - Mundo 01 ::::::::</h1 >
