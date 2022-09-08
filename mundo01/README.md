@@ -23,7 +23,7 @@ ___
 	* [Exemplos:](#Exemplos:)
 	* [Divisão Inteira com Resto da Divisão:](#DivisoInteiracomRestodaDiviso:)
 * [Ordem de Precedência - Operadores Aritméticos](#OrdemdePrecedncia-OperadoresAritmticos)
-	* [Exemplos:](#Exemplos:-1)
+	* [Exemplos](#Exemplos)
 	* [Usado Operadores Aritméticos com string](#UsadoOperadoresAritmticoscomstring)
 * [::: Tipos de Alinhamentos :::](#TiposdeAlinhamentos)
 * [::: Calculando e Replicando informações :::](#CalculandoeReplicandoinformaes)
@@ -58,11 +58,11 @@ ___
 	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
 * [::: Aula 08 :::](#Aula08)
 	* [Utilizando Módulos](#UtilizandoMdulos)
-* [Comando Import](#ComandoImport)
-	* [Exemplo de Bibliotecas](#ExemplodeBibliotecas)
+	* [Comando Import](#ComandoImport)
+		* [Exemplo de Bibliotecas](#ExemplodeBibliotecas)
 	* [Comando From Import](#ComandoFromImport)
-* [Funcionalidades Biblioteca Math](#FuncionalidadesBibliotecaMath)
-	* [Exemplo de Importação de Funções](#ExemplodeImportaodeFunes)
+		* [Funcionalidades Biblioteca Math](#FuncionalidadesBibliotecaMath)
+		* [Exemplo de Importação de Funções](#ExemplodeImportaodeFunes)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -78,7 +78,7 @@ ___
 
 ## <a name='Aula05'></a>::: Aula 05 :::
 
-###### [⬆ Sumário](#sumário)
+####### [⬆ Sumário](#sumário)
 
 Na quarta aula foi criado um desafio *(Desafio 03)* para ler dois números e calcular a soma entre eles. 
 No arquivo `exec003.py` dentro da pasta `/desafios`, se encontra tanto o desafio quanto a resposta.
@@ -100,7 +100,7 @@ Pois, o invés de fazer a soma de `n1 + n2`, ele irá concatenar *(juntar)*, poi
 
 ## <a name='TiposPrimitivos'></a>::: Tipos Primitivos :::
 
-##### [⬆ Sumário](#sumário)
+###### [⬆ Sumário](#sumário)
 
 Para resolver o problema, de que, quando o valor é digitado `input`, mesmo que seja um número, ele não é considerado como número, mas sim como sendo uma string.
 
@@ -167,7 +167,7 @@ print(type(nome_variável))
 
 ## <a name='Aula06'></a>::: Aula 06 :::
 
-##### [⬆ Sumário](#sumário)
+###### [⬆ Sumário](#sumário)
 
 Os exemplos a seguir, se encontram na pasta `/exercícios` no arquivo `aula_06.py`
 
@@ -188,7 +188,7 @@ print(type(nome_da_variável))
 ```
 ### <a name='TestesdeString'></a>Testes de String
 
-##### [⬆ Sumário](#sumário)
+###### [⬆ Sumário](#sumário)
 
 Através do comando `print()`, podemos fazer diversos testes usando o `type` ou usando o ponto `.` após a variável, a seguir alguns Métodos de string:
 
@@ -219,7 +219,7 @@ Caracteres ASCII têm pontos de código no intervalo U+0000-U+007F.
 
 ### <a name='Novonaverso3.7'></a>Novo na versão 3.7
 
-##### [⬆ Sumário](#sumário)
+###### [⬆ Sumário](#sumário)
 
 * `str.isdecimal()`  
 Retorna `True` se todos os caracteres na string são caracteres `decimais` e existe pelo menos um caractere, `False` caso contrário.  
@@ -239,7 +239,7 @@ Chame `keyword.iskeyword()` para testar se a string é uma `palavra reservada`, 
 
 ### <a name='TestandoseaStringumapalavrareservada'></a>Testando se a String é uma palavra reservada
 
-##### [⬆ Sumário](#sumário)
+###### [⬆ Sumário](#sumário)
 
 ```python
    from keyword import iskeyword
@@ -297,6 +297,8 @@ Por estar lendo o que foi digitado através do `input`, o Tipo será sempre uma 
 
 ## <a name='Desafio004'></a>::: Desafio 004 :::
 
+###### [⬆ Sumário](#sumário)
+
 Crie um programa que leia algo digitado no teclado e mostre na Tela o seu Tipo Primitivo e todas as informações possíveis sobre ela.
 
 No trecho do código a seguir `n.isupper()`:  
@@ -307,6 +309,8 @@ No trecho do código a seguir `n.isupper()`:
 * Cada Objeto possui diversos Métodos.
 
 ### <a name='RespostaDesafio04'></a>Resposta Desafio 04
+
+###### [⬆ Sumário](#sumário)
 
 ```python
 print ('====== Desafio 04 =====')
@@ -333,6 +337,8 @@ print ('\nO Tipo Primitivo desde valor é: {} \
 
 ## <a name='Aula07'></a>::: Aula 07 :::
 
+###### [⬆ Sumário](#sumário)
+
 ## <a name='OperadoresAritmticos'></a>Operadores Aritméticos
 
 * `+` Adição;
@@ -352,6 +358,8 @@ Operadores Aritméticos, funcionam como ***Operadores Binários*** *(precisam de
 
 ### <a name='Exemplos:'></a>Exemplos:
 
+###### [⬆ Sumário](#sumário)
+
 * 5 `+` 2 `==` 7;
 * 5 `-` 2 `==` 3;
 * 5 `*` 2 `==` 10;
@@ -361,9 +369,14 @@ Operadores Aritméticos, funcionam como ***Operadores Binários*** *(precisam de
 * 5 `%` 2 `==` 1.
 
 ### <a name='DivisoInteiracomRestodaDiviso:'></a>Divisão Inteira com Resto da Divisão:
+
+###### [⬆ Sumário](#sumário)
+
 ![Operadores Aritméticos](./imagens/aula_07_01.jpg)
 
 ## <a name='OrdemdePrecedncia-OperadoresAritmticos'></a>Ordem de Precedência - Operadores Aritméticos
+
+###### [⬆ Sumário](#sumário)
 
 Quem será calculado primeiro na ordem que aparecerem?
 
@@ -373,7 +386,9 @@ Quem será calculado primeiro na ordem que aparecerem?
 > Quando dois operadores possuem a mesma precedência, o que aparece primeiro *(da esquerda para a direita)* na expressão é calculado primeiro.
 * 4º - Adição `+` e Subtração `-` *(binárias)*.`
 
-### <a name='Exemplos:-1'></a>Exemplos:
+### <a name='Exemplos'></a>Exemplos
+
+###### [⬆ Sumário](#sumário)
 
 * 5 `+` 3 `*` 2 `==` 11 => *`(3 * 2 = 6 + 5 = 11)`*;
 * 3 `*` 5 `+` 4 `**` 2 `==` 31 => *`(4 ** 2 = 16 => 3 * 5 = 15 => 15 + 16 = 31)`*;
@@ -386,6 +401,8 @@ Ex<sup>1</sup>.: `9 ** (1/2) == 3` ***raiz quadrada***, é o mesmo que `pow(9, 1
 Ex<sup>2</sup>: `27 ** (1/3) == 3` ***raiz cúbica***, é o mesmo que `pow(27, 1/3)`.
 
 ### <a name='UsadoOperadoresAritmticoscomstring'></a>Usado Operadores Aritméticos com string
+
+###### [⬆ Sumário](#sumário)
 
 ```sh
 Terminal
@@ -403,6 +420,8 @@ Terminal
 ```
 
 ## <a name='TiposdeAlinhamentos'></a>::: Tipos de Alinhamentos :::
+
+###### [⬆ Sumário](#sumário)
 
 Também podemos usar o ***.format()*** para poder formatar o ***print()*** de uma forma mais inteligente:  
 Usando `:20` dentro máscara `{}` do `.format()`, podemos especificar quantos caracteres serão mostrados dentro da máscara, com isso podemos fazer outros tipos de alinhamentos como veremos a seguir:  
@@ -468,6 +487,8 @@ Prazer em te conhecer =======Marcos=======!
 
 ## <a name='CalculandoeReplicandoinformaes'></a>::: Calculando e Replicando informações :::
 
+###### [⬆ Sumário](#sumário)
+
 No exercício a seguir, iremos ver como podemos realizar diversos cálculos utilizando somente dois números digitados pelo usuário.
 
 * Primeiro iremos definir a varável `n1` que conterá o primeiro número que será digitado `input('Digite um valor: )` e será convertido de String para Inteiro `int(input('Digite um valor: ))`.  
@@ -512,9 +533,13 @@ O exponencial é: 205891132094649
 
 ## <a name='Desafio005'></a>::: Desafio 005 :::
 
+###### [⬆ Sumário](#sumário)
+
 Crie um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.  
 
 ### <a name='Resposta-AntecessoreSucessordeumnmero'></a>Resposta - Antecessor e Sucessor de um número
+
+###### [⬆ Sumário](#sumário)
 
 Minha solução:
 
@@ -552,6 +577,8 @@ O sucessor é: -4
 
 ### <a name='RespostadoProf.Guanabara'></a>Resposta do Prof. Guanabara
 
+###### [⬆ Sumário](#sumário)
+
 Solução do professor utilizando somente 1 variável economizando assim mais memória.  
 
 > ***Dica:*** pode ser feito assim pois as outras variáveis não seriam usadas posteriormente.
@@ -573,6 +600,8 @@ print('\
 ```
 
 ## <a name='Desafio006'></a>::: Desafio 006 :::
+
+###### [⬆ Sumário](#sumário)
 
 Crie um algorítimo que leia um número e mostre o seu dobro, seu triplo e a raiz quadrada.
 
@@ -618,6 +647,8 @@ E sua raiz quadrada é: 3.0
 
 ### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
+###### [⬆ Sumário](#sumário)
+
 Solução usando menos variáveis
 
 ```py
@@ -632,11 +663,15 @@ print('\
 
 ## <a name='Desafio007'></a>::: Desafio 007 :::
 
+###### [⬆ Sumário](#sumário)
+
 Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre sua média.
 
 > ***Obs.:*** se ñ estiver dando o resultado correto, prestar atenção na ordem de precedência.
 
 ### <a name='Resposta-MdiadoAluno'></a>Resposta - Média do Aluno
+
+###### [⬆ Sumário](#sumário)
 
 Minha solução
 
@@ -677,6 +712,8 @@ média: 6.65
 
 ### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
+###### [⬆ Sumário](#sumário)
+
 > ***Dica<sup>1</sup>:*** No Python uma variável pode conter acento.  
 ***Dica<sup>2</sup>:*** Formatando a máscara para mostrar somente 1 casa decimal, o Python faz o arredondamento respeitando as regras algébricas.
 
@@ -690,6 +727,8 @@ print('\
 ```
 
 ## <a name='Desafio008'></a>::: Desafio 008 :::
+
+###### [⬆ Sumário](#sumário)
 
 Escreva um programa que leia valor em metros e o exiba convertido em centímetros e milímetros. 
 
@@ -729,6 +768,8 @@ Digite uma medida em Metros: 0.0015
 ```
 
 ## <a name='Desafio009'></a>::: Desafio 009 :::
+
+###### [⬆ Sumário](#sumário)
 
 Faça um programa que leia um número inteiro qualquer e mostre a sua tabuada.
 
@@ -799,6 +840,8 @@ Digite um número e Gere sua Tabuada de Multiplicação: 9
 
 ### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
+###### [⬆ Sumário](#sumário)
+
 ```py
 n1 = int(input('\nDigite um número e Gere sua Tabuada de Multiplicação: '))
 
@@ -830,6 +873,8 @@ print('\
 ```
 
 ## <a name='Desafio010'></a>::: Desafio 010 :::
+
+###### [⬆ Sumário](#sumário)
 
 Crie um programa que leia quanto dinheiro o usuário tem na carteira e mostre quantos dólares ela pode comprar.
 
@@ -878,6 +923,8 @@ print('Com R$ {:.2f} você pode comprar US$ {:.2f}'.format(real, dolar))
 ```
 
 ## <a name='Desafio011'></a>::: Desafio 011 :::
+
+###### [⬆ Sumário](#sumário)
 
 Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que a cada litro de tinta pinta uma área de 2m<sup>2</sup>.
 
@@ -931,6 +978,8 @@ Você precisará de 3.60 litros de tinta.
 
 ### <a name='RespostaProf.Guanabara-1'></a>Resposta Prof. Guanabara
 
+###### [⬆ Sumário](#sumário)
+
 ```py
 larg = float(input('Largura da parede: '))
 alt = float(input('Altura da parede: '))
@@ -946,6 +995,8 @@ print('Para pintar essa parede, você precisará de {}l de tinta.'.format(tinta)
 Faça um algorítimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto.
 
 ### <a name='Resposta-ProdutocomDesconto'></a>Resposta - Produto com Desconto
+
+###### [⬆ Sumário](#sumário)
 
 Minha solução
 
@@ -984,6 +1035,8 @@ Boas compras e Volte Sempre!
 ```
 
 ## <a name='Desafio013'></a>::: Desafio 013 :::
+
+###### [⬆ Sumário](#sumário)
 
 Faça um algorítimo que leia o salário de um Funcionário e mostre seu novo salário com 15% de aumento.
 
@@ -1024,6 +1077,8 @@ Novo valor com Aumento R$ 1393.80
 
 ## <a name='Desafio014'></a>::: Desafio 014 :::
 
+###### [⬆ Sumário](#sumário)
+
 Escreva um programa que converta a temperatura digitada em ºC e a converta para ºF.  
 
 > ***Dica<sup>1</sup>:*** A fórmula para a conversão de ***ºC*** para ***ºF*** é: ***((9 * ºC) / 5) + 32***.  
@@ -1036,6 +1091,8 @@ print(f'Teste de formatação{:.2f}')
 ```
 
 ### <a name='ConversordeTemperaturadeCparaF'></a>Conversor de Temperatura de ºC para ºF
+
+###### [⬆ Sumário](#sumário)
 
 ```py
 import os
@@ -1057,6 +1114,8 @@ A temperatura de 40.0 ºC corresponde a 104.0 ºF
 ```
 
 ## <a name='Desafio015'></a>::: Desafio 015 :::
+
+###### [⬆ Sumário](#sumário)
 
 Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais foi alugado.  
 Calcule o preço a pagar, sabendo que o carro R$ 60,00 por dia e R$ 0,15 por Km rodado.
@@ -1107,6 +1166,8 @@ Valor total a pagar: R$ 410.33
 
 ### <a name='RespostadoProf.Guanabara-1'></a>Resposta do Prof. Guanabara
 
+###### [⬆ Sumário](#sumário)
+
 ```py
 dias = int(input('Quantos dias alugados? '))
 km = float(input('Quantos Km rodados? '))
@@ -1117,18 +1178,20 @@ print('O total a pagar é de R$ {:.2f}'.format(pago))
 
 ## <a name='Aula08'></a>::: Aula 08 :::
 
-###### [⬆ Sumário](#sumário)
+####### [⬆ Sumário](#sumário)
 
 ### <a name='UtilizandoMdulos'></a>Utilizando Módulos
 
 Os programas em Python por padrão tem um conjunto limitado de comandos, isso para que a linguagem seja rápido e os programas sejam pequenos e consumam menos memória e não tenham gastos desnecessários.  
 Quando houver necessidades de outras funcionalidades usa-se o comando `import` para importar essas funcionalidades extras **_(módulos e/ou bibliotecas)_** daí então elas passam a funcionar.  
 
-## <a name='ComandoImport'></a>Comando Import
+### <a name='ComandoImport'></a>Comando Import
 
 O comando **_import_**, importa todos os itens de uma determinada biblioteca, os deixando disponíveis para uso instantaneamente.
 
-### <a name='ExemplodeBibliotecas'></a>Exemplo de Bibliotecas
+#### <a name='ExemplodeBibliotecas'></a>Exemplo de Bibliotecas
+
+###### [⬆ Sumário](#sumário)
 
 ![aula08](./imagens/aula_08_01.jpg)
 
@@ -1147,6 +1210,8 @@ Basicamente no Python o comando `import` será dado nas primeiras linhas do cód
 
 ### <a name='ComandoFromImport'></a>Comando From Import
 
+###### [⬆ Sumário](#sumário)
+
 Já o comando `from biblioteca import item` importa somente um determinado item, economizando assim memória e processamento.  
 A seguir segue um exemplo utilizado a imagem acima:
 
@@ -1159,7 +1224,9 @@ Até a forma de referenciar os módulos, as constantes e as funcionalidades, mud
 Um exemplo de Biblioteca padrão do Python que jà vem instalada mas NÃO vem importada nos programas, é a **_Biblioteca `math`_** tudo em minúsculo mesmo.  
 Math significa matemática ela irá trazer algumas funcionalidades matemáticas extras que veremos a seguir: 
 
-## <a name='FuncionalidadesBibliotecaMath'></a>Funcionalidades Biblioteca Math
+#### <a name='FuncionalidadesBibliotecaMath'></a>Funcionalidades Biblioteca Math
+
+###### [⬆ Sumário](#sumário)
 
 * `ceil`: Esta funcionalidade serve para arredondar valores com ponto flutuante para cima;  
 * `floor`: Esta funcionalidade serve para arredondar valores `float` para baixo;  
@@ -1171,7 +1238,9 @@ Math significa matemática ela irá trazer algumas funcionalidades matemáticas 
 No momento que usamos o comando `import math` todas as Funções acima e muitas outras Funções serão importadas e estarão disponíveis para uso imediato.  
 Mas se utilizarmos o comando `from math import sqrt`somente a Função de Rais Quadrada estará disponível para uso.
 
-### <a name='ExemplodeImportaodeFunes'></a>Exemplo de Importação de Funções
+#### <a name='ExemplodeImportaodeFunes'></a>Exemplo de Importação de Funções
+
+###### [⬆ Sumário](#sumário)
 
 ![aula08_02](./imagens/aula_08_02.jpg)
 
