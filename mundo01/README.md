@@ -12,13 +12,13 @@ ___
 <!-- vscode-markdown-toc -->
 * [::: Aula 05 :::](#Aula05)
 * [::: Tipos Primitivos :::](#TiposPrimitivos)
-* [:::: Aula 06 ::::](#Aula06)
+* [::: Aula 06 :::](#Aula06)
 	* [Testes de String](#TestesdeString)
 	* [Novo na versão 3.7](#Novonaverso3.7)
 	* [Testando se a String é uma palavra reservada](#TestandoseaStringumapalavrareservada)
 * [::: Desafio 004 :::](#Desafio004)
 	* [Resposta Desafio 04](#RespostaDesafio04)
-* [:::: Aula 07 ::::](#Aula07)
+* [::: Aula 07 :::](#Aula07)
 * [Operadores Aritméticos](#OperadoresAritmticos)
 	* [Exemplos:](#Exemplos:)
 	* [Divisão Inteira com Resto da Divisão:](#DivisoInteiracomRestodaDiviso:)
@@ -56,11 +56,17 @@ ___
 * [::: Desafio 015 :::](#Desafio015)
 	* [Resposta - Aluguel de Carros](#Resposta-AlugueldeCarros)
 	* [Resposta do Prof. Guanabara](#RespostadoProf.Guanabara-1)
-* [Teste](#Teste)
+* [::: Aula 08 :::](#Aula08)
+	* [Utilizando Módulos](#UtilizandoMdulos)
+* [Comando Import](#ComandoImport)
+	* [Exemplo de Bibliotecas](#ExemplodeBibliotecas)
+	* [Comando From Import](#ComandoFromImport)
+* [Funcionalidades Biblioteca Math](#FuncionalidadesBibliotecaMath)
+	* [Exemplo de Importação de Funções](#ExemplodeImportaodeFunes)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
-	autoSave=true
+	autoSave=false
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
@@ -159,7 +165,7 @@ Aparentemente pode parecer que o código ficou maior que o anterior, mas, adiant
 print(type(nome_variável))
 ```
 
-## <a name='Aula06'>'</a>:::: Aula 06 ::::
+## <a name='Aula06'></a>::: Aula 06 :::
 
 ##### [⬆ Sumário](#sumário)
 
@@ -325,7 +331,7 @@ print ('\nO Tipo Primitivo desde valor é: {} \
                                                         ))
 ```
 
-## <a name='Aula07'>'</a>:::: Aula 07 ::::
+## <a name='Aula07'></a>::: Aula 07 :::
 
 ## <a name='OperadoresAritmticos'></a>Operadores Aritméticos
 
@@ -1109,8 +1115,65 @@ pago = (dias * 60) + (km * 0.15)
 print('O total a pagar é de R$ {:.2f}'.format(pago))
 ```
 
-# ::: Aula 08:::
-<!-- TOC ignore:true -->
+## <a name='Aula08'></a>::: Aula 08 :::
+
 ###### [⬆ Sumário](#sumário)
 
-## <a name='Teste'></a>Teste
+### <a name='UtilizandoMdulos'></a>Utilizando Módulos
+
+Os programas em Python por padrão tem um conjunto limitado de comandos, isso para que a linguagem seja rápido e os programas sejam pequenos e consumam menos memória e não tenham gastos desnecessários.  
+Quando houver necessidades de outras funcionalidades usa-se o comando `import` para importar essas funcionalidades extras **_(módulos e/ou bibliotecas)_** daí então elas passam a funcionar.  
+
+## <a name='ComandoImport'></a>Comando Import
+
+O comando **_import_**, importa todos os itens de uma determinada biblioteca, os deixando disponíveis para uso instantaneamente.
+
+### <a name='ExemplodeBibliotecas'></a>Exemplo de Bibliotecas
+
+![aula08](./imagens/aula_08_01.jpg)
+
+Dentro da linguagem Python para incluir alguma coisa é preciso usar o comando `import` usando como exemplo a imagem acima, iremos importar a Biblioteca `bebida` através do comando a seguir:  
+
+```py
+import bebida
+```
+No momento que o comando é digitado, todas as bebidas são importadas e automaticamente todas as bebidas podem ser usadas.  
+Da mesma forma com:
+```py 
+import doce 
+```
+Todos os doces serão importados.  
+Basicamente no Python o comando `import` será dado nas primeiras linhas do código e será seguido do nome do módulo ou biblioteca que será carregado para esse programa.
+
+### <a name='ComandoFromImport'></a>Comando From Import
+
+Já o comando `from biblioteca import item` importa somente um determinado item, economizando assim memória e processamento.  
+A seguir segue um exemplo utilizado a imagem acima:
+
+```py
+from doce import pudim
+```
+Neste trecho de código de exemplo, o item importado do módulo doce foi o pudim.  
+Até a forma de referenciar os módulos, as constantes e as funcionalidades, muda um pouco.
+
+Um exemplo de Biblioteca padrão do Python que jà vem instalada mas NÃO vem importada nos programas, é a **_Biblioteca `math`_** tudo em minúsculo mesmo.  
+Math significa matemática ela irá trazer algumas funcionalidades matemáticas extras que veremos a seguir: 
+
+## <a name='FuncionalidadesBibliotecaMath'></a>Funcionalidades Biblioteca Math
+
+* `ceil`: Esta funcionalidade serve para arredondar valores com ponto flutuante para cima;  
+* `floor`: Esta funcionalidade serve para arredondar valores `float` para baixo;  
+* `trunc`: Esta funcionalidade serve para truncar o número (irá eliminar do ponto em diante);  
+* `pow`: Esta é a Função de potencia que funciona e forma semelhante aos dois asteriscos `**`;  
+* `sqrt`: Esta Função serve para calcular a Raiz Quadrada;
+* `factorial`: Esta Função serve para calcular o fatorial.
+
+No momento que usamos o comando `import math` todas as Funções acima e muitas outras Funções serão importadas e estarão disponíveis para uso imediato.  
+Mas se utilizarmos o comando `from math import sqrt`somente a Função de Rais Quadrada estará disponível para uso.
+
+### <a name='ExemplodeImportaodeFunes'></a>Exemplo de Importação de Funções
+
+![aula08_02](./imagens/aula_08_02.jpg)
+
+> **_Dica:_** para importar mais de uma Função ao mesmo tempo, separa-se as Funções com um vírgula `,`.  
+
